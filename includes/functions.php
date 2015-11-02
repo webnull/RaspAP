@@ -1,4 +1,4 @@
-<?
+<?php
 
 /**
 *
@@ -166,15 +166,15 @@ function DisplayDashboard(){
 		                        <div class="panel-body">
 		                        <h4>Interface Information</h4>
 		                        Interface Name : wlan0<br />
-								IP Address : <?php echo $strIPAddress ?><br />
-								Subnet Mask : <?php echo $strNetMask ?><br />
-								Mac Address : <?php echo $strHWAddress ?><br />
+								IP Address : <?php echo $strIPAddress;?><br />
+								Subnet Mask : <?php echo $strNetMask;?><br />
+								Mac Address : <?php echo $strHWAddress;?><br />
 
 		                        <h4>Interface Statistics</h4>
-		                        Received Packets : <?php echo $strRxPackets ?><br />
-								Received Bytes : <?php echo $strRxBytes ?><br /><br />
-								Transferred Packets : <?php echo $strTxPackets ?><br />
-								Transferred Bytes : <?php echo $strTxBytes ?><br />
+		                        Received Packets : <?php echo $strRxPackets;?><br />
+								Received Bytes : <?php echo $strRxBytes;?><br /><br />
+								Transferred Packets : <?php echo $strTxPackets;?><br />
+								Transferred Bytes : <?php echo $strTxBytes;?><br />
 								</div><!-- /.panel-body -->
 							</div><!-- /.panel-default -->
 	                    </div><!-- /.col-md-6 -->
@@ -183,21 +183,21 @@ function DisplayDashboard(){
 	                        <div class="panel panel-default">
 		                        <div class="panel-body wireless">
 	                        	<h4>Wireless Information</h4>
-	                        	Connected To : <?php echo $strSSID ?><br />
-								AP Mac Address : <?php echo $strBSSID ?><br />
-								Bitrate : <?php echo $strBitrate ?><br />
-								Transmit Power : <?php echo $strTxPower ?><br />
-								Frequency : <?php echo $strFrequency ?><br />
-								Link Quality : 
+	                        	Connected To : <?php echo $strSSID;?><br />
+								AP Mac Address : <?php echo $strBSSID;?><br />
+								Bitrate : <?php echo $strBitrate;?><br />
+								Transmit Power : <?php echo $strTxPower;?><br />
+								Frequency : <?php echo $strFrequency;?><br />
+								Link Quality :
 								<div class="progress">
-								  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $strLinkQuality ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $strLinkQuality ?>%;">
-								    <?php echo $strLinkQuality ?>%
+								  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $strLinkQuality;?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $strLinkQuality;?>%;">
+								    <?php echo $strLinkQuality;?>%
 								  </div>
 								</div>
 								Signal Level :
 								<div class="progress">
-								  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $strSignalLevel ?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $strSignalLevel ?>%;">
-								    <?php echo $strSignalLevel ?>%
+								  <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="<?php echo $strSignalLevel;?>" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $strSignalLevel;?>%;">
+								    <?php echo $strSignalLevel;?>%
 								  </div>
 								</div>
 	                        	</div><!-- /.panel-body -->
@@ -225,7 +225,7 @@ function DisplayDashboard(){
 		        </div><!-- /.panel-default -->
 		    </div><!-- /.col-lg-12 -->
 		</div><!-- /.row -->
-	<?php 
+	<?php
 }
 
 /**
@@ -348,7 +348,7 @@ update_config=1
 		    </div><!-- /.panel-primary -->
 		</div><!-- /.col-lg-12 -->
 	</div><!-- /.row -->
-<?
+<?php
 }
 
 /**
