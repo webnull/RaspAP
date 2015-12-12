@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^?]*)$ /index.php?rewriteString=$1 [NC,L,QSA]
+
+<Files ~ "^.*\.([json|yml])">
+    deny from all
+</Files>

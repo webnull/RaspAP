@@ -28,3 +28,7 @@
 	background-color: #c61931;
 	border-color: #c61931;
 }
+
+.tor_setup {
+    display: none;
+}

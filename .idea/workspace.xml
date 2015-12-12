@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2287ba0a-985d-468e-9441-1d6e53b2909d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/viz/exemplary/area0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/navigate/arrow-down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/navigate/arrow-left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/navigate/arrow-right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/navigate/arrow-up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/viz/exemplary/bar0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/img/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/img/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/image/hs-2004-27-a-large-web.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/test/image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/viz/exemplary/line0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/img/raspAP-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/img/raspAP-logo64px.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/viz/exemplary/stacked_bar0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap-social/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot.tooltip/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/mocha/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/raphael/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/.csscomb.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap-social/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap-social/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/test/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/grunt/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Schema/DatabaseMigrations/20151120102616_interfaces.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Schema/DatabaseMigrations/20151128180406_fail_message.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Schema/DatabaseMigrations/20151204204017_psk_collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/API.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/Controller/AbstractAdministrationController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Classes/AbstractConfigClass.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/AbstractInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/AccessPoint.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Afrikaans.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Albanian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Arabic.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Azerbaijan.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Bangla.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Belarusian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Bridge.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/BridgeInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Bulgarian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Catalan.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Chinese-traditional.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Chinese.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/Client.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/ConfigureButton.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/js/ManagementDashboard/ConfigureInterface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/Contributing.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Croatian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Czech.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/DHCPD/DHCPD.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DHCPLeasesController/DHCPLeasesController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Classes/DaemonUtils.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Danish.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/data/Data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DiagnosticController/DiagnosticController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/Down.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Dutch.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/English.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Estonian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/FAQ.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Filipino.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Finnish.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Templates/Layout/Footer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/French.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Galician.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Georgian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/German.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Greek.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Gujarati.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Templates/Layout/Header.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Hebrew.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Hindi.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/mocha/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Hungarian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Classes/IP.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Icelandic.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Indonesian-Alternative.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Indonesian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Classes/IniSupport.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/Helpers/InterfaceDaemons.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/InterfacesList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Irish.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Italian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Japanese.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Korean.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/mocha/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Latvian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/DHCPD/Leases.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/LinuxNetworkStack/LinuxNetworkStack.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Lithuanian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Loopback.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/MacAddress/MacAddress.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Macedonian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/Main.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/Diagnostic/Main.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Main.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/TOR/Main.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Malay.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/js/ManagementDashboard/ManagePasswords.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/ManagePasswords.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/ManagePasswordsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/ModalNotice.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ModalResponse.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/Monitor.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/NEWS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Norwegian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/PLUGINS.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/HostAPD/PSKCollection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Persian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Polish.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Portuguese-Brasil.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Portuguese.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/TOR/Privoxy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap-social/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/mocha/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Romanian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Russian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Serbian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Slovak.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Slovenian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Spanish.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/StartupComponent/StartupComponent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/StatisticsBlock.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/SummaryScreenController/SummaryScreenController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Swahili.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Swedish.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/js/ManagementDashboard/TOR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/filtering/row-based/TableTools.ShowSelectedOnly.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Tamil.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Thai.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/TOR/TorConfiguration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/TOR/TorEntity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Turkish.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/effects/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Ukranian.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Urdu.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Uzbek.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/Vietnamese.lang" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wireless.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WirelessInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/manipulation/_evalUrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/_template.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/filtering/type-based/accent-neutralise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/data/accepts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/core/access.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/addGetHookIf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/js/admin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/africa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/event/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/initialisation/ajax.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/event/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/alt-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/exports/amd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/raphael/dev/amdDev.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/effects/animatedSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/antarctica" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/anti-the.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/area-as-line.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/area.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/area/area_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/arr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/asia" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/attributes/attr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/src/augment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/australasia" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/display-control/auto.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/grid/auto_grid_lines_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/average().js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/backward" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/bar-colors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/bar-no-axes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/bar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/bar/bar_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap-social/bootstrap-social.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap-social/bootstrap-social.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap-social/bootstrap-social.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/font-awesome/bootstrap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/styling/bootstrap.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap-social/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot.tooltip/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/mocha/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/raphael/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/bower.travis.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/chinese-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/class2type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/initialisation/className.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/attributes/classes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/display-control/classes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/bar/colours.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/column().title().js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/child-rows/column-control.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/columns().order().js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/commas_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/grunt/configBridge.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/controller.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DHCPLeasesController/controller.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DiagnosticController/controller.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/controller.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/SummaryScreenController/controller.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/controller.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/var/cssExpand.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/curCSS.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/currency.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/type-detection/currency.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/child-rows/custom-renderer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/dist/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/damian.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/data-eu-gdp-growth-1.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/data-eu-gdp-growth-2.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/data-eu-gdp-growth-3.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/data-eu-gdp-growth-4.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/data-eu-gdp-growth-5.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/data-eu-gdp-growth.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/data-japan-gdp-growth.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/data-usa-gdp-growth.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/alphabetSearch/dataTables.alphabetSearch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/1/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/1/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/2/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/font-awesome/dataTables.fontAwesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/dataTables.foundation.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/pagination/jPaginator/dataTables.jPaginator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/jqueryui/dataTables.jqueryui.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/lengthLinks/dataTables.lengthLinks.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/css/dataTables.responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/js/dataTables.responsive.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/css/dataTables.responsive.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/features/searchHighlight/dataTables.searchHighlight.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/data/var/data_priv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/data/var/data_user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/font-awesome/datatables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/date-dd-MMM-yyyy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/date-de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/date-eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/date-euro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/date-uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/type-detection/date-uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/datetime-moment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/datetime-us.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/days.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/decimal-custom-hover.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/initialisation/default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/defaultDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/queue/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/diagonal-xlabels-bar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/diagonal-xlabels.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/child-rows/disable-child-rows.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/custom-data-source/dom-checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/custom-data-source/dom-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/custom-data-source/dom-text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/donut-colors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/donut-formatter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/donut.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/donut/donut_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/dst.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/pagination/ellipses.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/enum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/etcetera" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/europe" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/lib/example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/lib/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/examples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/viz/examples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot.tooltip/js/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/pagination/extjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/extras.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/factory" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/file-size.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/type-detection/file-size.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/traversing/findFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/js/flot-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/flot.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnAddDataAndDisplay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnAddTr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnColumnIndexToVisible.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnDataUpdate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnDisplayRow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnDisplayStart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnFakeRowspan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnFilterAll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnFilterClear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnFilterOnReturn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnFindCellRowIndexes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnFindCellRowNodes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnGetAdjacentTr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnGetColumnData.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnGetColumnIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnGetHiddenNodes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnGetTd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnGetTds.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnLengthChange.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnMultiFilter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnPagingInfo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnProcessingIndicator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnReloadAjax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnSetFilteringDelay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnSortNeutral.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnStandingRedraw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/fnVisibleToColumnIndex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/type-detection/formatted-num.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/formatted-numbers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/font-awesome/foundation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/styling/foundation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/pagination/four_button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/dist/js/functions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/var/getStyles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/exports/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/goals.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/hasOwn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/hiddenVisibleSelectors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/holder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/src/holder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/hover_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/filtering/type-based/html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/filtering/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/i18n/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/2/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/bootstrap/3/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/foundation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/integration/jqueryui/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/pagination/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/type-detection/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/ajax/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/annotating/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-interacting/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-multiple/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/basic-options/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/basic-usage/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/canvas/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/categories/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/image/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/interacting/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/navigate/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/percentiles/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/realtime/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/resize/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/selection/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/series-errorbars/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/series-pie/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/series-toggle/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/series-types/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/stacking/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/symbols/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/threshold/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/tracking/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/visitors/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/zooming/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/child-rows/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/display-control/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/initialisation/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/styling/index.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/indexOf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/display-control/init-classes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/core/init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/pagination/input.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Binaries/install" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/ip-address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/type-detection/ip-address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/var/isHidden.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/iso3166.tab" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/shared/jquery-ui/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot.tooltip/js/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot.tooltip/js/jquery.flot.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot.tooltip/js/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot.tooltip/js/jquery.flot.tooltip.source.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/media/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/dist/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/dist/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/dist/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax/jsonp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/label_series_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/leapseconds" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/raphael/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/line/line_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax/load.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/mocha/media/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/make.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/make.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/dist/metisMenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/src/metisMenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/dist/metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/src/metisMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/dist/metisMenu.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/dist/metisMenu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/mocha/mocha.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/mocha/mocha.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/monthYear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/months-no-smooth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/js/morris-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/lib/morris.area.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/lib/morris.bar.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/lib/morris.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/less/morris.core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/lib/morris.donut.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/lib/morris.grid.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/lib/morris.hover.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/lib/morris.line.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/natural.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/negative.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/initialisation/new.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/no-grid.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/non-continuous.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/non-date.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax/var/nonce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/northamerica" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/num-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/type-detection/num-html.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/numeric-comma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/type-detection/numeric-comma.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/src/ondomready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/initialisation/option.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/pacificnew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/metisMenu/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/package.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/pad_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/page.jumpToData().js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/core/parseHTML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax/parseJSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax/parseXML.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/parse_time_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/percent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/persian.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/filtering/type-based/phoneNumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/support/placeholder.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/pnum.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/holderjs/src/polyfills.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/attributes/prop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/quarters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/filtering/row-based/range_dates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/filtering/row-based/range_numbers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/raphael/raphael-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/raphael/raphael.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/manipulation/var/rcheckableType.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/core/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/raphael/dev/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/resize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/docs/option/responsive.breakpoints.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/docs/option/responsive.details.renderer.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/docs/option/responsive.details.target.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/docs/option/responsive.details.type.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/docs/option/responsive.details.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/docs/api/responsive.index().xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/docs/api/responsive.recalc().xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/docs/option/responsive.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/child-rows/right-column.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/var/rmargin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/traversing/var/rneedsContext.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/rnotwhite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/var/rnumnonpx.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax/var/rquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/core/var/rsingleTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/viz/run.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/dist/css/sb-admin-2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/dist/js/sb-admin-2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/scientific.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/pagination/scrolling.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/pagination/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/selector-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/selector-sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/grid/set_data_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/signed-num.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/sizzle/dist/sizzle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/sizzle/dist/sizzle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/sizzle/dist/sizzle.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/solar87" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/solar88" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/solar89" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/southamerica" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/specs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/stacked_bars.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/stringMonthYear.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/strundefined.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/api/sum().js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/attributes/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/event/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/manipulation/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/css/swap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/systemv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/viz/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/dist/css/timeline.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/timestamps.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/title-numeric.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/title-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/var/toString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-plugins/sorting/turkish-string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/updating.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/attributes/val.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/viz/visual_specs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/weeks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/bootstrap/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/datatables-responsive/examples/child-rows/whole-row-control.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/jquery/src/ajax/xhr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/spec/lib/grid/y_label_format_spec.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/yearistype.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/morrisjs/examples/years.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/raspap/bower_components/flot/examples/axes-time-zones/tz/zone.tab" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/custom.css" afterPath="$PROJECT_DIR$/dist/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    </list>
+    <ignored path="raspap-webgui.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="raspap-webgui" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="admin.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/raspap/js/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21441442" vertical-offset="0" max-vertical-offset="555">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModalResponse.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ModalResponse.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
+              <caret line="12" column="147" selection-start-line="12" selection-start-column="132" selection-end-line="12" selection-end-column="147" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/TOR/Main.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1717">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WiredInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="2210">
+              <caret line="66" column="32" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TORController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="3264">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="e#66#122#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InterfacesList.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/InterfacesList.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2618">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/Main.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="765">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TorConfiguration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/TorConfiguration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="3111">
+              <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+              <folding>
+                <element signature="e#40#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/raspap/.content/Schema/DatabaseMigrations/20151128180406_fail_message.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/Monitor.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/AbstractInterface.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/DHCPD/DHCPD.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/Down.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DiagnosticController/controller.yml" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/Diagnostic/Main.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DiagnosticController/DiagnosticController.php" />
+        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Classes/BaseExceptions.php" />
+        <option value="$PROJECT_DIR$/raspap/dist/css/custom.css" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/controller.yml" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/Main.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Schema/DatabaseMigrations/20151204204017_psk_collection.php" />
+        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Orm/ORMBaseFrameworkObject.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/MacAddress/MacAddress.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/HostAPD/PSKCollection.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/ManagePasswordsController.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/ManagePasswords.tpl" />
+        <option value="$PROJECT_DIR$/raspap/js/ManagementDashboard/ManagePasswords.js" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/SummaryScreenController/SummaryScreenController.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Main.tpl" />
+        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Logging/Logger.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DHCPLeasesController/DHCPLeasesController.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/DHCPD/Leases.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Classes/DaemonUtils.php" />
+        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Cache/Drivers/SQLite3CacheDriver.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WirelessInterface.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/LinuxNetworkStack/LinuxNetworkStack.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Classes/AbstractConfigClass.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/controller.yml" />
+        <option value="$PROJECT_DIR$/dist/css/custom.css" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/Helpers/InterfaceDaemons.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/TOR/TorEntity.php" />
+        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Controller/Response.php" />
+        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Autoloader/Autoloader.php" />
+        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Validator/Validator.php" />
+        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Controller/Request.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Classes/IP.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/TOR/Privoxy.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/TOR/TorConfiguration.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/TOR/Main.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ModalResponse.tpl" />
+        <option value="$PROJECT_DIR$/raspap/js/admin.js" />
+        <option value="$PROJECT_DIR$/raspap/js/ManagementDashboard/TOR.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-2" />
+    <option name="y" value="24" />
+    <option name="width" value="1370" />
+    <option name="height" value="748" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagementDashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagementDashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ManagementDashboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TOR" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NetworkInterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raspap-webgui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="last_opened_file_path" value="/tmp/cachegrind.out.29979" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController" />
+      <recent name="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin" />
+      <recent name="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms" />
+      <recent name="$PROJECT_DIR$/raspap/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2287ba0a-985d-468e-9441-1d6e53b2909d" name="Default" comment="" />
+      <created>1448131888125</created>
+      <option name="number" value="Default" />
+      <updated>1448131888125</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="24" width="1370" height="748" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30513597" sideWeight="0.49916247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17759146" sideWeight="0.5008375" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/Monitor.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="493">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Schema/DatabaseMigrations/20151204204017_psk_collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43589744" vertical-offset="0" max-vertical-offset="507">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Database/Drivers/CommonPDODriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4230769" vertical-offset="2989" max-vertical-offset="12580">
+          <caret line="183" column="9" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Orm/ORMBaseFrameworkObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="3587" max-vertical-offset="6953">
+          <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/Controller/AbstractAdministrationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12854442" vertical-offset="0" max-vertical-offset="529">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/MacAddress/MacAddress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="674" max-vertical-offset="1292">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/ManagePasswordsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1014" max-vertical-offset="2057">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/js/ManagementDashboard/ManagePasswords.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5405405" vertical-offset="261" max-vertical-offset="867">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Logging/Logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.538462" vertical-offset="1307" max-vertical-offset="2703">
+          <caret line="93" column="24" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/sqlite3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6153846" vertical-offset="5387" max-vertical-offset="9248">
+          <caret line="327" column="20" selection-start-line="327" selection-start-column="20" selection-end-line="327" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5762712" vertical-offset="119" max-vertical-offset="765">
+          <caret line="25" column="82" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/ManagePasswords.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17924528" vertical-offset="402" max-vertical-offset="1190">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/SummaryScreenController/SummaryScreenController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.538462" vertical-offset="64" max-vertical-offset="595">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DHCPLeasesController/DHCPLeasesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="544">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Classes/DaemonUtils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5141777" vertical-offset="0" max-vertical-offset="529">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Cache/Drivers/SQLite3CacheDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="561" max-vertical-offset="3536">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wireless.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42829457" vertical-offset="0" max-vertical-offset="561">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/AccessPoint.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WirelessInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1732" max-vertical-offset="2261">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/DHCPD/Leases.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4515504" vertical-offset="1246" max-vertical-offset="1887">
+          <caret line="87" column="74" selection-start-line="87" selection-start-column="74" selection-end-line="87" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="918">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/HostAPD/PSKCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4230769" vertical-offset="1144" max-vertical-offset="2890">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8255814" vertical-offset="1291" max-vertical-offset="1853">
+          <caret line="101" column="111" selection-start-line="101" selection-start-column="111" selection-end-line="101" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/LinuxNetworkStack/LinuxNetworkStack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2924">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Classes/AbstractConfigClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="1394">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5325" max-vertical-offset="9010">
+          <caret line="333" column="38" selection-start-line="333" selection-start-column="20" selection-end-line="333" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/controller.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Kernel/BaseFrameworkClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.923077" vertical-offset="551" max-vertical-offset="2057">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8062016" vertical-offset="1182" max-vertical-offset="2312">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/AbstractInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1528" max-vertical-offset="4862">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1309">
+          <caret line="9" column="24" selection-start-line="5" selection-start-column="12" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/Helpers/InterfaceDaemons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.269231" vertical-offset="822" max-vertical-offset="1496">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/TorEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.230769" vertical-offset="1281" max-vertical-offset="1819">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Controller/Response.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3488372" vertical-offset="602" max-vertical-offset="3366">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Autoloader/Autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6153846" vertical-offset="1460" max-vertical-offset="2839">
+          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Classes/IniSupport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Validator/Validator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.115385" vertical-offset="253" max-vertical-offset="799">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pantheraframework2/lib/Components/Controller/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.269231" vertical-offset="1235" max-vertical-offset="1853">
+          <caret line="96" column="161" selection-start-line="96" selection-start-column="161" selection-end-line="96" selection-end-column="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Classes/IP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="493">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/Privoxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1938">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/js/ManagementDashboard/ConfigureInterface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="1156">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/js/ManagementDashboard/TOR.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49815497" vertical-offset="427" max-vertical-offset="1054">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21441442" vertical-offset="0" max-vertical-offset="555">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ModalResponse.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
+          <caret line="12" column="147" selection-start-line="12" selection-start-column="132" selection-end-line="12" selection-end-column="147" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/TOR/Main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1717">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="2210">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="3264">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="e#66#122#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/InterfacesList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2618">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/Main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="765">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/TorConfiguration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="3111">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

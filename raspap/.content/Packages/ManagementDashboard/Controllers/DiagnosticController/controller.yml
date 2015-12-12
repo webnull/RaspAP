@@ -1,0 +1,5 @@
+"\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\DiagnosticController":
+  routes:
+    "/diagnostic":
+        methods: GET|POST
+        priority: 880

@@ -1,0 +1,5 @@
+"\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\TORController":
+  routes:
+    "/anonymitySettings":
+        methods: GET|POST
+        priority: 999

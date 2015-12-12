@@ -1,0 +1,19 @@
+default_migration_table: _migrations_phinxlog
+default_database: development
+paths:
+    migrations: /srv/http/raspap-webgui/raspap//.content/Schema/DatabaseMigrations/
+environments:
+    development:
+        adapter: sqlite
+        charset: utf-8
+        name: /srv/http/raspap-webgui/raspap/.content/database
+        host: null
+        user: null
+        pass: null
+    integrationTesting:
+        adapter: sqlite
+        charset: utf-8
+        name: /srv/http/raspap-webgui/raspap//.content/phpunit-testing.sqlite3
+        host: null
+        user: null
+        pass: null

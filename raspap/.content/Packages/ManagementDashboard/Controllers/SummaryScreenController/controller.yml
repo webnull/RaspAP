@@ -1,0 +1,5 @@
+"\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\SummaryScreenController":
+  routes:
+    "/summary":
+        methods: GET|POST
+        priority: 999

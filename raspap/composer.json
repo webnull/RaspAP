@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "pantheraframework/panthera": "dev-master"
+    }
+}

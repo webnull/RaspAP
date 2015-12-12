@@ -1,0 +1,5 @@
+"\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\DHCPLeasesController":
+  routes:
+    "/dhcpConnectedDevices":
+        methods: GET|POST
+        priority: 900

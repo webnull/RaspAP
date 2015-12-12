@@ -1,0 +1,5 @@
+"\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\ConfigureInterfaceController":
+  routes:
+    "/configureInterface,[:interface]":
+        methods: GET|POST
+        priority: 901
