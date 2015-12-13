@@ -45,3 +45,7 @@ Append:
 ```php
 'SudoUsers' => [ 'your-login-here', 'root', 'your-other-login-here' ]
 ```
+
+## Installation from sources
+
+... not documented yet ...
