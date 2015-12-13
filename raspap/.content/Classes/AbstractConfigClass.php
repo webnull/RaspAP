@@ -50,9 +50,17 @@ class AbstractConfigClass extends BaseFrameworkClass
      * Unset list of keys
      *
      * @param array $keys
+     *
+     * @return $this
      */
-    protected function clearKeys($keys)
+    protected function clearKeys($keys = null)
     {
+        if ($keys === null)
+        {
+            $this->data = [];
+            return $this;
+        }
+
         foreach ($keys as $key)
         {
             if (isset($this->data[$key]))
@@ -60,6 +68,8 @@ class AbstractConfigClass extends BaseFrameworkClass
                 unset($this->data[$key]);
             }
         }
+
+        return $this;
     }
 
     /**

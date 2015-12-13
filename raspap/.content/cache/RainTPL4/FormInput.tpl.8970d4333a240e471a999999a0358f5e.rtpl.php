@@ -56,9 +56,9 @@
 
 
                 
-                <?php if(($this->modifiers["in"]("client", $roles))){?>
+                <?php if(($this->modifiers["in"]("client_cable_static", $roles))){?>
 
-                    <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/Interfaces/Forms/Modes/Client.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl", 45, 2040);?>
+                    <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/Interfaces/Forms/Modes/ClientCableStatic.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl", 45, 2053);?>
 
                 <?php }?>
 
@@ -66,7 +66,7 @@
                 
                 <?php if(($this->modifiers["in"]("access_point", $roles))){?>
 
-                    <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl", 50, 2212);?>
+                    <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl", 50, 2236);?>
 
                 <?php }?>
 
@@ -74,7 +74,7 @@
                 
                 <?php if(($this->modifiers["in"]("down", $roles))){?>
 
-                    <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/Interfaces/Forms/Modes/Down.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl", 55, 2381);?>
+                    <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/Interfaces/Forms/Modes/Down.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl", 55, 2405);?>
 
                 <?php }?>
 
@@ -94,4 +94,4 @@
     <?php }?>
 
 
-<?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/Interfaces/Forms/ModalNotice.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl", 72, 2937);?>
+<?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/Interfaces/Forms/ModalNotice.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl", 72, 2961);?>

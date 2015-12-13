@@ -23,19 +23,76 @@ class NetworkStack(BaseDaemon):
         :return: networkStack
         """
 
-        if "downInterface" in settings:
+        if "client_dhcp" in settings:
+            return self.run_dhcp_client(interface, settings)
 
+        elif "client_static" in settings:
+            return self.run_static_client(interface, settings)
+
+        elif "down_interface" in settings:
             if not settings['useInterface']:
                 self.app.logging.output('Skipping interface ' + interface, interface)
                 return True
 
-            return self.bringDownInterface(interface)
+            return self.bring_down_interface(interface)
 
-        if "monitor_filter" in settings:
-            return self.configureMonitoring(interface, settings)
+        elif "monitor_filter" in settings:
+            return self.configure_monitoring(interface, settings)
 
 
-    def configureMonitoring(self, interface, settings):
+    def run_static_client(self, interface, settings):
+        """
+        Configure interface to connect to network using static ip address
+
+        :param interface:
+        :param settings:
+        :return:
+        """
+
+        commands = [
+            'ifconfig ' + interface + ' down',
+            'ifconfig ' + interface + ' ' + settings['address']
+        ]
+
+        if 'netmask' in settings and settings['netmask']:
+            commands.append('ifconfig ' + interface + ' netmask ' + settings['netmask'])
+
+        if 'gateway' in settings and settings['gateway']:
+            commands.append('ifconfig ' + interface + ' gateway ' + settings['gateway'])
+
+        if 'broadcast' in settings and settings['broadcast']:
+            commands.append('ifconfig ' + interface + ' broadcast ' + settings['broadcast'])
+
+        commands.append('ifconfig ' + interface + ' up')
+
+        for command in commands:
+            if not self.app.executeCommand(command, shell=True)[0]:
+                return False
+
+        return True
+
+
+    def run_dhcp_client(self, interface, settings):
+        """
+        Run "dhclient" on interface (ISC DHCP Client)
+
+        :param interface:
+        :param settings:
+        :return:
+        """
+
+        status, output = self.app.executeCommand(['dhclient', interface])
+
+        if not status:
+            if not output:
+                output = 'dhclient process finished with wrong code, no ip address assigned'
+
+            self.lastErrorMessage = output
+
+        return status
+
+
+    def configure_monitoring(self, interface, settings):
         """
         Configure packets monitoring on interface
 
@@ -125,6 +182,11 @@ class NetworkStack(BaseDaemon):
         :return:
         """
 
+        # finish dhcp client process
+        if self.find_process('dhclient ' + self.interface):
+            self.find_and_kill_process('dhclient ' + self.interface, self.interface)
+
+        # finish tcpdump process
         if self.process:
             self.app.logging.output('Killing tcpdump process pid=' + str(self.process.pid), self.interface)
 
@@ -135,7 +197,7 @@ class NetworkStack(BaseDaemon):
 
 
 
-    def bringDownInterface(self, interface):
+    def bring_down_interface(self, interface):
         """
         Bring down the interface
 

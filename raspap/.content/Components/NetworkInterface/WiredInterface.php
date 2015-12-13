@@ -49,6 +49,22 @@ class WiredInterface extends AbstractInterface
 
         // TX packets
         $this->parsePackets('transmitted');
+
+        // gateway address (from "route" output)
+        $routeOutput = shell_exec('route |grep "' . $this->getName() . '"');
+        $gateway = '';
+
+        if ($routeOutput)
+        {
+            preg_match('/([0-9\.]+)\s*/', $routeOutput, $matches);
+
+            if ($matches)
+            {
+                $gateway = $matches[1];
+            }
+        }
+
+        $this->details['Gateway'] = $gateway;
     }
 
     /**
@@ -67,6 +83,30 @@ class WiredInterface extends AbstractInterface
     public function getIPAddress()
     {
         return isset($this->details['IPv4']) ? $this->details['IPv4'] : '';
+    }
+
+    /**
+     * @return string
+     */
+    public function getBroadcastAddress()
+    {
+        return isset($this->details['IPv4_Broadcast']) ? $this->details['IPv4_Broadcast'] : '';
+    }
+
+    /**
+     * @return string
+     */
+    public function getNetmaskAddress()
+    {
+        return isset($this->details['Netmask']) ? $this->details['Netmask'] : '';
+    }
+
+    /**
+     * @return string
+     */
+    public function getGatewayAddress()
+    {
+        return isset($this->details['Gateway']) ? $this->details['Gateway'] : '';
     }
 
     /**

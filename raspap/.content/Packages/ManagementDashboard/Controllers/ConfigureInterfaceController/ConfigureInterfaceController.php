@@ -72,6 +72,7 @@ class ConfigureInterfaceController extends AbstractAdministrationController
     public function commitAction()
     {
         $response = new Response();
+        $role = $this->request->post('InterfaceRole');
 
         if (!in_array($this->request->post('InterfaceRole'), $this->interface->getPossibleRoles()))
         {
@@ -81,7 +82,7 @@ class ConfigureInterfaceController extends AbstractAdministrationController
         /**
          * Access Point
          */
-        if ($this->request->post('InterfaceRole') === 'access_point')
+        if ($role === 'access_point')
         {
             $hostAPD = new HostAPDInterface($this->interface);
             $hostAPD->setup(
@@ -104,9 +105,34 @@ class ConfigureInterfaceController extends AbstractAdministrationController
         }
 
         /**
+         * Client: DHCP
+         */
+        elseif ($role === 'client_cable_dhcp')
+        {
+            $stack = $this->interface->getLinuxNetworkStack();
+            $stack->setupAsDHCPClient();
+            $stack->save();
+        }
+
+        /**
+         * Client: Static address
+         */
+        elseif ($role === 'client_cable_static')
+        {
+            $stack = $this->interface->getLinuxNetworkStack();
+            $stack->setupAsStaticClient(
+                $this->request->post('CableStatic_IP', '!Classes/IP::address'),
+                $this->request->post('CableStatic_Netmask', 'Classes/IP::address'),
+                $this->request->post('CableStatic_Gateway', 'Classes/IP::address'),
+                $this->request->post('CableStatic_Broadcast', 'Classes/IP::address')
+            );
+            $stack->save();
+        }
+
+        /**
          * Monitoring mode
          */
-        elseif ($this->request->post('InterfaceRole') === 'monitor')
+        elseif ($role === 'monitor')
         {
             $stack = new LinuxNetworkStack($this->interface);
             $stack->setupMonitorMode(
@@ -121,7 +147,7 @@ class ConfigureInterfaceController extends AbstractAdministrationController
         /**
          * Turning off the interface
          */
-        elseif ($this->request->post('InterfaceRole') === 'down')
+        elseif ($role === 'down')
         {
             $stack = new LinuxNetworkStack($this->interface);
             $stack->down();

@@ -41,8 +41,8 @@
                 {/if}
 
                 <!-- client -->
-                {if "client" in $roles}
-                    {include "Admin/SummaryScreen/Interfaces/Forms/Modes/Client.tpl"}
+                {if "client_cable_static" in $roles}
+                    {include "Admin/SummaryScreen/Interfaces/Forms/Modes/ClientCableStatic.tpl"}
                 {/if}
 
                 <!-- access_point -->

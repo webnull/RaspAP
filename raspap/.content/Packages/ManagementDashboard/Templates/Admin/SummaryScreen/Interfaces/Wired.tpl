@@ -9,6 +9,8 @@
             <b>Netmask:</b> {$info.Netmask|ab:"Not setup"}<br />
             <b>IPv6:</b> {$info.IPv6|ab:"Not associated"}<br />
             <b>Mac Address:</b> {$info.MAC}<br />
+            {if $interface->getBroadcastAddress()}<b>Broadcast</b>: {$interface->getBroadcastAddress()}<br />{/if}
+            {if $interface->getGatewayAddress()}<b>Gateway</b>: {$interface->getGatewayAddress()}<br />{/if}
 
             <br />
             {include "Admin/SummaryScreen/StatisticsBlock.tpl"}

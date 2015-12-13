@@ -1,6 +1,8 @@
 <?php
 namespace RaspAP\Components\LinuxNetworkStack;
 
+use Guzzle\Service\Exception\ValidationException;
+use Panthera\Components\Validator\Validator;
 use RaspAP\Classes\AbstractConfigClass;
 use RaspAP\Components\NetworkInterface\AbstractInterface;
 use RaspAP\Components\NetworkInterface\WirelessInterface;
@@ -40,7 +42,7 @@ class LinuxNetworkStack extends AbstractConfigClass
     public function down()
     {
         $this->data = [];
-        $this->set('downInterface', true);
+        $this->set('down_interface', true);
     }
 
     /**
@@ -48,7 +50,7 @@ class LinuxNetworkStack extends AbstractConfigClass
      */
     public function isDown()
     {
-        return $this->get('downInterface', false);
+        return $this->get('down_interface', false);
     }
 
     /**
@@ -80,7 +82,7 @@ class LinuxNetworkStack extends AbstractConfigClass
     public function setupMonitorMode($filter = '', $packetTypes = ['UDP', 'TCP'], $packetSize = 68, $setupInterface = true)
     {
         $this->clearKeys([
-            'downInterface',
+            'down_interface',
         ]);
 
         // validate and filter $packetTypes
@@ -147,6 +149,60 @@ class LinuxNetworkStack extends AbstractConfigClass
     }
 
     /**
+     * Setup interface as DHCP Client, so it will try to connect to a dhcp server to get an IP Address
+     */
+    public function setupAsDHCPClient()
+    {
+        $this->clearKeys();
+        $this->set('client_dhcp', true);
+    }
+
+    /**
+     * Setup as static client to connect to a network using this interface
+     *
+     * @param string $ip
+     * @param string $netmask
+     * @param string $gateway
+     * @param string $broadcast
+     *
+     * @throws \Panthera\Classes\BaseExceptions\ValidationException
+     * @return $this
+     */
+    public function setupAsStaticClient($ip, $netmask = null, $gateway = null, $broadcast = null)
+    {
+        $this->clearKeys();
+        $this->set('client_static', true);
+
+        if (!$ip || !Validator::validate($ip, 'Classes/IP::address'))
+        {
+            throw new ValidationException('Invalid IP Address specified', 'NETWORK_STACK_INVALID_IP');
+        }
+
+        $this->set('address', $ip);
+        Validator::validate($netmask, 'Classes/IP::address') ? $this->set('netmask', $netmask) : null;
+        Validator::validate($gateway, 'Classes/IP::address') ? $this->set('gateway', $gateway) : null;
+        Validator::validate($broadcast, 'Classes/IP::address') ? $this->set('broadcast', $broadcast) : null;
+
+        return $this;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isStaticClient()
+    {
+        return (bool)$this->get('client_static');
+    }
+
+    /**
+     * @return bool
+     */
+    public function isDHCPClient()
+    {
+        return (bool)$this->get('client_dhcp');
+    }
+
+    /**
      * Save LinuxNetworkStack settings and network interface entity
      */
     public function save()
@@ -158,6 +214,14 @@ class LinuxNetworkStack extends AbstractConfigClass
         elseif ($this->isMonitoring())
         {
             $this->interface->setRole('monitor');
+        }
+        elseif ($this->isDHCPClient())
+        {
+            $this->interface->setRole('client_cable_dhcp');
+        }
+        elseif ($this->isStaticClient())
+        {
+            $this->interface->setRole('client_cable_static');
         }
 
         $this->interface->getDaemons()->clear();
