@@ -51,6 +51,7 @@
     {/if}
 </head>
 <body>
+    <input type="hidden" name="sessionId" value="{$sessionId}">
     <div id="wrapper">
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -64,6 +65,21 @@
                 <a class="navbar-brand" href="summary">RaspAP - router from your box</a>
             </div>
             <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li>
+                        <a id="logoutButton"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+            <!-- /.dropdown -->
+            </ul>
 
             <!-- Navigation -->
             <div class="navbar-default sidebar" role="navigation">
@@ -81,9 +97,9 @@
                         <li>
                             <a href="diagnostic"><i class="fa fa-gears fa-fw"></i> Diagnostic</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a href="systemSettings"><i class="fa fa-cog fa-fw"></i> Settings</a>
-                        </li>
+                        </li>-->
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.navbar-default -->

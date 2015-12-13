@@ -2,6 +2,13 @@
 namespace RaspAP\Components\Controller;
 use Panthera\Components\Controller\BaseFrameworkController;
 
+/**
+ * RaspAP
+ * --
+ * AbstractAdministrationController
+ *
+ * @package RaspAP\Components\Controller
+ */
 abstract class AbstractAdministrationController extends BaseFrameworkController
 {
     /**
@@ -11,6 +18,13 @@ abstract class AbstractAdministrationController extends BaseFrameworkController
     {
         parent::__construct();
 
-        // @todo Validate permissions here
+        /** @var \RaspAP\Components\Auth\AuthController $auth */
+        $auth = $this->app->component->auth;
+
+        if (!$auth->isAuthorized())
+        {
+            header('Location: login');
+            exit;
+        }
     }
 }

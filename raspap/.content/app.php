@@ -56,7 +56,9 @@ $defaultConfig = [
         'name'          => 'Empty application',
         'repository'    => 'http://localhost/application/repository',
         'repositoryKey' => 'xxx',
-    ]
+    ],
+
+    'SudoUsers' => [ 'damian' ],
 ];
 
 // if defined PHPUnit, initialize Panthera Framework 2 once again for test purposes

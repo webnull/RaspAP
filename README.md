@@ -29,7 +29,19 @@ and where runs dependencies.
 - raintpl4
 - isc-dhcp
 - dhclient
+- pam (pecl extension)
 
 ## Optional dependencies
 - tor
 - proxivy
+
+## FAQ
+
+1. How to authorize my login to use web panel?
+
+Navigate to .content/, and edit app.php file, nano .content/app.php
+Append:
+
+```php
+'SudoUsers' => [ 'your-login-here', 'root', 'your-other-login-here' ]
+```

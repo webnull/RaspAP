@@ -10,6 +10,7 @@ $appIndex = array (
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\ConfigureInterfaceController' => '$APP$.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\DHCPLeasesController' => '$APP$.content/Packages/ManagementDashboard/Controllers/DHCPLeasesController/DHCPLeasesController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\DiagnosticController' => '$APP$.content/Packages/ManagementDashboard/Controllers/DiagnosticController/DiagnosticController.php',
+    '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\LoginController' => '$APP$.content/Packages/ManagementDashboard/Controllers/LoginController/LoginController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\ManagePasswordsController' => '$APP$.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/ManagePasswordsController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\SummaryScreenController' => '$APP$.content/Packages/ManagementDashboard/Controllers/SummaryScreenController/SummaryScreenController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\TORController' => '$APP$.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php',
@@ -66,6 +67,16 @@ $appIndex = array (
       'original' => '/diagnostic',
       'methods' => 'GET|POST',
       'priority' => 880,
+    ),
+    '`^/login$`' => 
+    array (
+      'matches' => 
+      array (
+      ),
+      'controller' => '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\LoginController',
+      'original' => '/login',
+      'methods' => 'GET|POST',
+      'priority' => 800,
     ),
     '`^/managePasswords,(?:(?P<interface>[^/\\.]++))$`' => 
     array (

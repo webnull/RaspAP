@@ -1,0 +1,5 @@
+"\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\LoginController":
+  routes:
+    "/login":
+        methods: GET|POST
+        priority: 800
