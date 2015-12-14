@@ -11,10 +11,10 @@
     <title>RaspAP - router from your computer</title>
 
     <!-- jQuery -->
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap Core CSS -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- MetisMenu CSS -->
     <link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
@@ -111,7 +111,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        <img class="logo" src="img/raspAP-logo.png" width="45" height="45">RaspAP
+                        <img class="logo" src="./img/raspAP-logo.png" width="45" height="45">RaspAP
                     </h1>
                 </div>
             </div><!-- /.row -->

@@ -16,7 +16,7 @@ $defaultConfig = [
     'developerMode' => true,
     'enabledPackages' => [ 'ManagementDashboard' ],
     'Routing' => [
-        'rootPath' => '/raspap-webgui/raspap'
+        //'rootPath' => '/raspap-webgui/raspap'
     ],
 
     'database' => [

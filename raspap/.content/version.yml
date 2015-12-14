@@ -1,0 +1,4 @@
+version: 2.0.32-98c0a7f
+maturity: dev
+template: 2.0.%commits-%rev.short
+fullVersionString: 2.0.32-98c0a7f-dev

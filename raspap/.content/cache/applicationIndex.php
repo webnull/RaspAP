@@ -24,7 +24,7 @@ $appIndex = array (
       array (
         'type' => 'signal',
         'call' => '\\dashboardModule::attachToAdminMenu',
-        'file' => '$LIB$/packages/admin/dashboard/classes/dashboardModule.class.php',
+        'file' => '$LIB$/Packages/admin/dashboard/classes/dashboardModule.class.php',
       ),
     ),
   ),

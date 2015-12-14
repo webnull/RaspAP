@@ -11,10 +11,10 @@
     <title>RaspAP - router from your computer</title>
 
     
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
 
     
-    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     
     <link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
@@ -52,6 +52,7 @@
 
 </head>
 <body>
+    <input type="hidden" name="sessionId" value="<?php print($sessionId);?>">
     <div id="wrapper">
         
         <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
@@ -65,6 +66,21 @@
                 <a class="navbar-brand" href="summary">RaspAP - router from your box</a>
             </div>
             
+
+            <ul class="nav navbar-top-links navbar-right">
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
+                    <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li>
+                        <a id="logoutButton"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                    </li>
+                </ul>
+                
+            </li>
+            
+            </ul>
 
             
             <div class="navbar-default sidebar" role="navigation">
@@ -82,9 +98,7 @@
                         <li>
                             <a href="diagnostic"><i class="fa fa-gears fa-fw"></i> Diagnostic</a>
                         </li>
-                        <li>
-                            <a href="systemSettings"><i class="fa fa-cog fa-fw"></i> Settings</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -96,7 +110,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        <img class="logo" src="img/raspAP-logo.png" width="45" height="45">RaspAP
+                        <img class="logo" src="./img/raspAP-logo.png" width="45" height="45">RaspAP
                     </h1>
                 </div>
             </div>
