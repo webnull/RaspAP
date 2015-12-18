@@ -20,16 +20,16 @@ and where runs dependencies.
 
 ## Dependencies
 
-- python2.7
+- python2.7 (install using OS package manager)
 - Linux
-- PHP >=5.6
-- php-sqlite
-- pantheraframework2
-- panthera-desktop
-- raintpl4
-- isc-dhcp
-- dhclient
-- pam (pecl extension)
+- PHP >=5.6 (install using OS package manager)
+- php-sqlite (install using OS package manager)
+- pantheraframework2 (will install automaticaly with composer)
+- panthera-desktop (https://github.com/Panthera-Framework/Panthera-Desktop)
+- raintpl4 (will install automaticaly with composer)
+- isc-dhcp (install using OS package manager)
+- dhclient (install using OS package manager)
+- pam (pecl extension) (install using OS package manager)
 
 ## Optional dependencies
 - tor
@@ -47,5 +47,7 @@ Append:
 ```
 
 ## Installation from sources
+At first please install panthera-desktop from here: https://github.com/Panthera-Framework/Panthera-Desktop
 
-... not documented yet ...
+Please run ./install.sh to install from sources
+And to run Python daemon please install run-daemon.sh

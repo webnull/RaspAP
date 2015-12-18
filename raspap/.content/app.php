@@ -4,7 +4,6 @@
  *
  * @author Damian Kęska <damian@pantheraframework.org>
  */
-
 defined('PF2_NAMESPACE') ?: define('PF2_NAMESPACE', 'RaspAP');
 
 if (!function_exists('ab'))
@@ -19,7 +18,7 @@ $defaultConfig = [
     'developerMode' => true,
     'enabledPackages' => [ 'ManagementDashboard' ],
     'Routing' => [
-        'rootPath' => '/raspap-webgui/raspap'
+        'rootPath' => '/',
     ],
 
     'database' => [
@@ -38,30 +37,15 @@ $defaultConfig = [
         'readOnlyPassword' => null,
 
         'charset'          => 'utf-8',
-
-        /*
-        // mysql
-
-        'type'     => 'MySQL',
-        'host'     => 'localhost',
-        'name'     => 'database',
-        'user'     => 'username',
-        'password' => 'password',
-
-        'mysql_buffered_queries' => 50,
-        'timeout'                => 60,
-        'charset'                => 'utf8',
-        */
-
     ],
 
     'application' => [
-        'name'          => 'Empty application',
-        'repository'    => 'http://localhost/application/repository',
-        'repositoryKey' => 'xxx',
+        'name'          => 'RaspAP',
+        'repository'    => 'https://github.com/webnull/RaspAP',
+        'repositoryKey' => '',
     ],
 
-    'SudoUsers' => [ 'damian' ],
+    'SudoUsers' => [ 'root', 'your-user-here' ],
 ];
 
 // if defined PHPUnit, initialize Panthera Framework 2 once again for testing purposes
