@@ -4,16 +4,20 @@
     <bookmark url="file://$PROJECT_DIR$/raspap/.content/Components/StartupComponent/StartupComponent.php" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2287ba0a-985d-468e-9441-1d6e53b2909d" name="Default" comment="Clean up">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/raspap/bower.json" afterPath="" />
+    <list default="true" id="2287ba0a-985d-468e-9441-1d6e53b2909d" name="Default" comment="Vendor support, clean up">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/damian.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/raspap-webgui.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/applicationCache.sqlite3" afterPath="$PROJECT_DIR$/raspap/.content/cache/applicationCache.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/app.php" afterPath="$PROJECT_DIR$/raspap/.content/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/composer.json" afterPath="$PROJECT_DIR$/raspap/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/index.php" afterPath="$PROJECT_DIR$/raspap/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/Binaries/shell" afterPath="$PROJECT_DIR$/raspap/.content/Binaries/shell" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/version.yml" afterPath="$PROJECT_DIR$/raspap/.content/version.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/database.sqlite3" afterPath="$PROJECT_DIR$/raspap/.content/database.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run-daemon.sh" afterPath="$PROJECT_DIR$/run-daemon.sh" />
     </list>
     <ignored path="raspap-webgui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,25 +44,33 @@
     <leaf>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="442" max-vertical-offset="952">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state vertical-scroll-proportion="-8.655172" vertical-offset="480" max-vertical-offset="986">
+              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="run-webpanel.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run-webpanel.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/raspap/.content/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-37.26923" vertical-offset="0" max-vertical-offset="1258">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-              <folding>
-                <element signature="e#6#143#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="986">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,18 +108,38 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/raspap/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
               <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run-daemon.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run-daemon.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="570">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/install.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.13138686" vertical-offset="132" max-vertical-offset="680">
+              <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -126,10 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Main.tpl" />
-        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Logging/Logger.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DHCPLeasesController/DHCPLeasesController.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/Components/DHCPD/Leases.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Classes/DaemonUtils.php" />
         <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Cache/Drivers/SQLite3CacheDriver.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl" />
@@ -166,24 +194,28 @@
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/Login.tpl" />
         <option value="$PROJECT_DIR$/raspap/.content/Components/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/LoginController/LoginController.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/raspap/.content/version.yml" />
         <option value="$PROJECT_DIR$/raspap/.content/Templates/Layout/Header.tpl" />
         <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Router/RouteHandler.php" />
         <option value="$PROJECT_DIR$/../pantheraframework2/lib/Classes/Tests/phpunit.bootstrap.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/app.php" />
         <option value="$PROJECT_DIR$/raspap/index.php" />
         <option value="$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/init.php" />
         <option value="$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Components/Kernel/Framework.php" />
         <option value="$PROJECT_DIR$/raspap/composer.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/raspap/.content/app.php" />
+        <option value="$PROJECT_DIR$/run-daemon.sh" />
+        <option value="$PROJECT_DIR$/install.sh" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/run-webpanel.sh" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
-    <option name="width" value="1364" />
+    <option name="width" value="1358" />
     <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -241,7 +273,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="raspap" />
+              <option name="myItemId" value="raspapd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,32 +288,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="raspap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspap-webgui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspap-webgui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="raspap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,6 +314,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="raspap-webgui" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -376,16 +393,41 @@
       <option name="project" value="LOCAL" />
       <updated>1450121376497</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Vendor support, clean up">
+      <created>1450427574503</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1450427574503</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Instalation scripts">
+      <created>1450430120254</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1450430120254</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated readme">
+      <created>1450430177252</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1450430177252</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added run-webpanel.sh script">
+      <created>1450476162387</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1450476162387</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1364" height="741" extended-state="4" />
+    <frame x="0" y="27" width="1358" height="741" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27465856" sideWeight="0.49916247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27896342" sideWeight="0.49916247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -394,7 +436,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17759146" sideWeight="0.5008375" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -423,9 +464,12 @@
     <MESSAGE value="Clean up, DHCP/Static client support (initial)" />
     <MESSAGE value="Clean up" />
     <MESSAGE value="Added authorization and login screen" />
-    <MESSAGE value="Updated readme" />
     <MESSAGE value="Improved support of PHP Builtin Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved support of PHP Builtin Server" />
+    <MESSAGE value="Vendor support, clean up" />
+    <MESSAGE value="Instalation scripts" />
+    <MESSAGE value="Updated readme" />
+    <MESSAGE value="Added run-webpanel.sh script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added run-webpanel.sh script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -434,38 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Templates/Layout/Header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2074">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="646">
-          <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2754">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspap/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
@@ -517,13 +529,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11543">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ModalResponse.tpl">
@@ -711,17 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="952">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspap/.content/version.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09189189" vertical-offset="0" max-vertical-offset="555">
@@ -781,36 +782,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/cache/phinx.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/cache/applicationIndex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7996071" vertical-offset="460" max-vertical-offset="2193">
+          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/raspap/.content/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-37.26923" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding>
-            <element signature="e#6#143#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="986">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/raspap/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/cache/phinx.yaml">
+    <entry file="file://$PROJECT_DIR$/run-daemon.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="570">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.655172" vertical-offset="480" max-vertical-offset="986">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run-webpanel.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13138686" vertical-offset="132" max-vertical-offset="680">
+          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
           <folding />
         </state>
       </provider>
