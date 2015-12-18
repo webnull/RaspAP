@@ -6,9 +6,9 @@
 # @author Damian Kęska <damian@pantheraframework.org>
 ######################################################
 
-export PF2_PATH="/srv/http/pantheraframework2/lib"
+export PF2_PATH="/srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib"
 export APP_PATH="/srv/http/raspap-webgui/raspap/"
-export PATH="$PATH:/srv/http/pantheraframework2/lib/Binaries/:/srv/http/raspap-webgui/raspap//.content/Binaries/"
+export PATH="$PATH:/srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib/Binaries/:/srv/http/raspap-webgui/raspap//.content/Binaries/:/srv/http/raspap-webgui/raspap/vendor//vendor/bin"
 export PS1="[\$(tput setaf 3)\u\$(tput sgr0)|PFApplication|\$(tput setaf 2)\W\$(tput sgr0)]\$ "
 
 # aliases
@@ -18,7 +18,7 @@ reload()
     then
         echo "Rebuilds configuration and re-run shell again"
     else
-        deploy build/environment/shellConfiguration
+        deploy Build/Environment/ShellConfiguration
         source `whereis shell | cut -d':' -f2`
     fi
 }
@@ -27,7 +27,7 @@ reload()
 psysh()
 {
     goto_app
-    "$PF2_PATH/vendor/bin/psysh" "/srv/http/pantheraframework2/lib//Schema/Configurations/Shell/psysh.bootstrap.php"
+    "/srv/http/raspap-webgui/raspap/vendor//bin/psysh" "/srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib//Schema/Configurations/Shell/psysh.bootstrap.php"
 }
 
 goto_app()
@@ -47,8 +47,12 @@ commands()
 
     echo ""
     echo "$(tput setaf 2)Panthera Framework 2 builtin commands:$(tput setaf 3)"
-    ls /srv/http/pantheraframework2/lib/Binaries/
+    ls /srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib/Binaries/
     echo "reload goto_app goto_fw welcome commands psysh"
+    if [ -d /srv/http/raspap-webgui/raspap/vendor//bin ];
+    then
+        ls /srv/http/raspap-webgui/raspap/vendor//bin
+    fi
     echo "$(tput sgr0)"
 }
 

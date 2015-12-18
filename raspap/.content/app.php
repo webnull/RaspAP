@@ -7,16 +7,19 @@
 
 defined('PF2_NAMESPACE') ?: define('PF2_NAMESPACE', 'RaspAP');
 
-function ab($a, $b)
+if (!function_exists('ab'))
 {
-    return $a ? $a : $b;
+    function ab($a, $b)
+    {
+        return $a ? $a : $b;
+    }
 }
 
 $defaultConfig = [
     'developerMode' => true,
     'enabledPackages' => [ 'ManagementDashboard' ],
     'Routing' => [
-        //'rootPath' => '/raspap-webgui/raspap'
+        'rootPath' => '/raspap-webgui/raspap'
     ],
 
     'database' => [
@@ -61,5 +64,5 @@ $defaultConfig = [
     'SudoUsers' => [ 'damian' ],
 ];
 
-// if defined PHPUnit, initialize Panthera Framework 2 once again for test purposes
-require_once '/srv/http/pantheraframework2/lib/init.php';
+// if defined PHPUnit, initialize Panthera Framework 2 once again for testing purposes
+require_once __VENDOR_PATH__ . '/pantheraframework/panthera/lib/init.php';

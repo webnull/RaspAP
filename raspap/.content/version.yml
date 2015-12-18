@@ -1,4 +1,4 @@
-version: 2.0.32-98c0a7f
+version: 2.0.33-f74b55e/test
 maturity: dev
-template: 2.0.%commits-%rev.short
+template: 2.0.%commits-%rev.short/test
 fullVersionString: 2.0.32-98c0a7f-dev

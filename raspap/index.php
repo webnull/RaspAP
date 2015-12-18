@@ -6,6 +6,6 @@ if (in_array(pathinfo(parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH), PATHINFO
     return false;
 }
 
-require __DIR__. '/.content/app.php';
+require './vendor/pantheraframework/panthera/lib/init.php';
 $handler = new \Panthera\Components\Router\RouteHandler();
 $handler->handleRequest();

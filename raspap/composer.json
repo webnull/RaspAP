@@ -1,5 +1,14 @@
 {
+    "minimum-stability": "dev",
+    "require": {
+        "pantheraframework\/panthera": "dev-master",
+        "ext-pam": ">=1.0.3",
+        "psy\/psysh": "master",
+        "robmorgan\/phinx": "0.4.*"
+    },
     "require-dev": {
-        "pantheraframework/panthera": "dev-master"
-    }
+        "phpunit\/phpunit": "4.7.*",
+        "codeclimate\/php-test-reporter": "dev-master"
+    },
+    "version": "2.0.33-f74b55e\/test"
 }
