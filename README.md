@@ -49,5 +49,5 @@ Append:
 ## Installation from sources
 At first please install panthera-desktop from here: https://github.com/Panthera-Framework/Panthera-Desktop
 
-Please run ./install.sh to install from sources
-And to run Python daemon please install run-daemon.sh
+Please run ./install.sh to install from sources,
+and to run Python daemon please run run-daemon.sh
