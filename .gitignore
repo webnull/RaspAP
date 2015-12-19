@@ -1,6 +1,7 @@
 .DS_Store
 .idea
 raspap/vendor
+raspap/.content/app.php
 raspap/.content/cache/RainTPL4
 raspap/.content/cache/applicationCache.sqlite3
 raspap/.content/cache/phinx.yaml
