@@ -34,10 +34,17 @@ rm composer.phar
 
 # create a system user and give him access
 sudo useradd raspap -b $PWD -r -s /bin/false
-sudo chown raspap $PWD/../raspap -R
+sudo chown raspap:raspap $PWD/../raspap -R
+sudo chmod 770 $PWD/../raspap
 
 sudo mkdir -p /etc/dhcpd/raspap/
-sudo chown raspap /etc/dhcpd/raspap/ -R
+sudo chown raspap:raspap /etc/dhcpd/raspap/ -R
+sudo chmod 770 /etc/dhcpd/raspap/
 
 sudo mkdir -p /etc/hostapd/raspap/
-sudo chown raspap /etc/hostapd/raspap/ -R
+sudo chown raspap:raspap /etc/hostapd/raspap/ -R
+sudo chmod 770 /etc/hostapd/raspap/
+
+echo "RaspAP installed."
+echo "To allow you'r user to overwrite RaspAP files type: "
+echo "gpasswd -a your-login-here raspap"
