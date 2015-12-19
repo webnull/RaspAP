@@ -20,6 +20,14 @@ echo "~> Installing composer"
 php -r "readfile('https://getcomposer.org/installer');" | php
 php composer.phar install
 
+pwd=`pwd`
+
+# update pf2 as there is a temporary problem on packagist
+cd ../raspap/vendor/pantheraframework/panthera
+git pull
+
+cd $pwd
+
 # clean up composer
 echo "~> Cleaning up composer"
 rm composer.phar

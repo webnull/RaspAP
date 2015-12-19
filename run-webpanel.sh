@@ -1,3 +1,3 @@
 #!/bin/bash
 cd raspap
-./vendor/pantheraframework/panthera/lib/Binaries/webserver --server PHP start
+sudo su raspap -s /bin/sh -e "./vendor/pantheraframework/panthera/lib/Binaries/webserver --server PHP start"
