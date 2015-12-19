@@ -25,11 +25,11 @@ echo "~> Cleaning up composer"
 rm composer.phar
 
 # create a system user and give him access
-useradd raspap -b $PWD -r -s /bin/false
-chown raspap $PWD/raspap -R
+sudo useradd raspap -b $PWD -r -s /bin/false
+sudo chown raspap $PWD/raspap -R
 
-mkdir -p /etc/dhcpd/raspap/
-chown raspap /etc/dhcpd/raspap/ -R
+sudo mkdir -p /etc/dhcpd/raspap/
+sudo chown raspap /etc/dhcpd/raspap/ -R
 
-mkdir -p /etc/hostapd/raspap/
-chown raspap /etc/hostapd/raspap/ -R
+sudo mkdir -p /etc/hostapd/raspap/
+sudo chown raspap /etc/hostapd/raspap/ -R
