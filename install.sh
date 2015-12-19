@@ -26,7 +26,7 @@ rm composer.phar
 
 # create a system user and give him access
 sudo useradd raspap -b $PWD -r -s /bin/false
-sudo chown raspap $PWD/raspap -R
+sudo chown raspap $PWD/../raspap -R
 
 sudo mkdir -p /etc/dhcpd/raspap/
 sudo chown raspap /etc/dhcpd/raspap/ -R
