@@ -6,7 +6,8 @@ $appIndex = array (
   ),
   'autoloader' => 
   array (
-    '\\Panthera\\Packages\\admin\\dashboard\\DashboardController' => '$LIB$/Packages/admin/dashboard/controllers/DashboardController/DashboardController.php',
+    '\\Panthera\\Packages\\BasePackage\\Controllers\\ErrorNotFoundController' => '$LIB$/Packages/BasePackage/Controllers/ErrorNotFoundController/ErrorNotFoundController.php',
+    '\\RaspAP\\Packages\\BasePackage\\Controllers\\IndexController' => '$APP$.content/Packages/BasePackage/Controllers/IndexController/IndexController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\ConfigureInterfaceController' => '$APP$.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\DHCPLeasesController' => '$APP$.content/Packages/ManagementDashboard/Controllers/DHCPLeasesController/DHCPLeasesController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\DiagnosticController' => '$APP$.content/Packages/ManagementDashboard/Controllers/DiagnosticController/DiagnosticController.php',
@@ -14,7 +15,6 @@ $appIndex = array (
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\ManagePasswordsController' => '$APP$.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/ManagePasswordsController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\SummaryScreenController' => '$APP$.content/Packages/ManagementDashboard/Controllers/SummaryScreenController/SummaryScreenController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\TORController' => '$APP$.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php',
-    '\\dashboardModule' => '$LIB$/Packages/admin/dashboard/classes/dashboardModule.class.php',
   ),
   'signals' => 
   array (
@@ -119,6 +119,7 @@ $appIndex = array (
   ),
   'packages' => 
   array (
-    0 => 'ManagementDashboard',
+    0 => 'BasePackage',
+    1 => 'ManagementDashboard',
   ),
 );

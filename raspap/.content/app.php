@@ -16,9 +16,13 @@ if (!function_exists('ab'))
 
 $defaultConfig = [
     'developerMode' => true,
-    'enabledPackages' => [ 'ManagementDashboard' ],
+    'enabledPackages' => [ 'ManagementDashboard', 'BasePackage' ],
     'Routing' => [
-        'rootPath' => '/',
+        'rootPath' => '/raspap-webgui/raspap/',
+    ],
+
+    'logging' => [
+        'enabled' => true,
     ],
 
     'database' => [
@@ -45,7 +49,7 @@ $defaultConfig = [
         'repositoryKey' => '',
     ],
 
-    'SudoUsers' => [ 'root', 'your-user-here' ],
+    'SudoUsers' => [ 'root', 'damian' ],
 ];
 
 // if defined PHPUnit, initialize Panthera Framework 2 once again for testing purposes
