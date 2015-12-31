@@ -6,6 +6,7 @@ $appIndex = array (
   ),
   'autoloader' => 
   array (
+    '\\IndexControllerTest' => '$LIB$/Packages/BasePackage/Tests/IndexControllerTest.php',
     '\\Panthera\\Packages\\BasePackage\\Controllers\\ErrorNotFoundController' => '$LIB$/Packages/BasePackage/Controllers/ErrorNotFoundController/ErrorNotFoundController.php',
     '\\RaspAP\\Packages\\BasePackage\\Controllers\\IndexController' => '$APP$.content/Packages/BasePackage/Controllers/IndexController/IndexController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\ConfigureInterfaceController' => '$APP$.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php',
@@ -15,6 +16,7 @@ $appIndex = array (
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\ManagePasswordsController' => '$APP$.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/ManagePasswordsController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\SummaryScreenController' => '$APP$.content/Packages/ManagementDashboard/Controllers/SummaryScreenController/SummaryScreenController.php',
     '\\RaspAP\\Packages\\ManagementDashboard\\Controllers\\TORController' => '$APP$.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php',
+    '\\RaspAP\\Packages\\Test\\Controllers\\MyTestControllerController' => '$APP$.content/Packages/Test/Controllers/MyTestControllerController/MyTestControllerController.php',
   ),
   'signals' => 
   array (
@@ -116,10 +118,29 @@ $appIndex = array (
       'methods' => 'GET|POST',
       'priority' => 999,
     ),
+    '`^/example,(?:(?P<myVariable>[^/\\.]++))$`' => 
+    array (
+      'matches' => 
+      array (
+        0 => 
+        array (
+          0 => '[:myVariable]',
+          1 => '',
+          2 => '',
+          3 => 'myVariable',
+          4 => '',
+        ),
+      ),
+      'controller' => '\\RaspAP\\Packages\\Test\\Controllers\\MyTestControllerController',
+      'original' => '/example,[:myVariable]',
+      'methods' => 'GET|POST',
+      'priority' => 100,
+    ),
   ),
   'packages' => 
   array (
     0 => 'BasePackage',
     1 => 'ManagementDashboard',
+    2 => 'Test',
   ),
 );

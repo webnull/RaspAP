@@ -12,8 +12,8 @@ use Panthera\Components\Orm\ORMBaseFrameworkObject;
  */
 class MacAddress extends ORMBaseFrameworkObject
 {
-    protected static $__orm_Table = 'mac_address';
-    protected static $__orm_IdColumn = 'id';
+    protected static $__ORM_Table = 'mac_address';
+    protected static $__ORM_IdColumn = 'id';
 
     /**
      * @orm

@@ -14,8 +14,8 @@ use RaspAP\Components\NetworkInterface\Helpers\InterfaceDaemons;
  */
 abstract class AbstractInterface extends ORMBaseFrameworkObject
 {
-    protected static $__orm_Table = 'interfaces';
-    protected static $__orm_IdColumn = 'id';
+    protected static $__ORM_Table = 'interfaces';
+    protected static $__ORM_IdColumn = 'id';
 
     /**
      * @orm

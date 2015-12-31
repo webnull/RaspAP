@@ -8,8 +8,8 @@
 
 export PF2_PATH="/srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib"
 export APP_PATH="/srv/http/raspap-webgui/raspap/"
-export PATH="$PATH:/srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib/Binaries/:/srv/http/raspap-webgui/raspap//.content/Binaries/:/srv/http/raspap-webgui/raspap/vendor//vendor/bin"
-export PS1="[\$(tput setaf 3)\u\$(tput sgr0)|PFApplication|\$(tput setaf 2)\W\$(tput sgr0)]\$ "
+export PATH="$PATH:/srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib/Binaries/:/srv/http/raspap-webgui/raspap//.content/Binaries/:/srv/http/raspap-webgui/raspap/vendor//bin"
+export PS1="[\$(tput setaf 3)\u\$(tput sgr0)|RaspAP|\$(tput setaf 2)\W\$(tput sgr0)]\$ "
 
 # aliases
 reload()
@@ -27,7 +27,8 @@ reload()
 psysh()
 {
     goto_app
-    "/srv/http/raspap-webgui/raspap/vendor//bin/psysh" "/srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib//Schema/Configurations/Shell/psysh.bootstrap.php"
+    psyCMD="/srv/http/raspap-webgui/raspap/vendor//bin/psysh /srv/http/raspap-webgui/raspap/vendor/pantheraframework/panthera/lib//Schema/Configurations/Shell/psysh.bootstrap.php $@"
+    eval $psyCMD
 }
 
 goto_app()
@@ -59,7 +60,7 @@ commands()
 welcome()
 {
     clear
-    echo "$(tput setaf 2)Welcome to $(tput setaf 3)PFApplication $(tput setaf 2)shell"
+    echo "$(tput setaf 2)Welcome to $(tput setaf 3)RaspAP $(tput setaf 2)shell"
     echo "Your project is localized at path: $(tput setaf 3)$APP_PATH$(tput sgr0)"
     echo ""
     commands
@@ -68,4 +69,10 @@ welcome()
     echo "$(tput setaf 2)Type \"$(tput setaf 1)commands$(tput setaf 2)\" to see list of available commands again any time$(tput sgr0)"
 }
 
+phinx()
+{
+    echo "Better please use command \"migrations\" for advanced operations on database"
+    echo "To securely migrate your database please use \"deploy Build/Database/Migrate\" as this command will include all Panthera Framework 2 and your application logic"
+    echo "To anyway use raw phinx you could still execute: \"/srv/http/raspap-webgui/raspap/vendor//bin/phinx\""
+}
 welcome

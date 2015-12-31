@@ -50,6 +50,7 @@ $defaultConfig = [
     ],
 
     'SudoUsers' => [ 'root', 'damian' ],
+    'LoginRetries' => 100, // testing
 ];
 
 // if defined PHPUnit, initialize Panthera Framework 2 once again for testing purposes

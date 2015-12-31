@@ -34,6 +34,13 @@ rm composer.phar
 
 # create a system user and give him access
 sudo useradd raspap -b $PWD -r -s /bin/false
+
+sudo touch /etc/tor/torrc-raspap
+sudo chown raspap:raspap /etc/tor/torrc-raspap
+
+sudo touch /etc/privoxy/config-raspap
+sudo chown raspap:raspap /etc/privoxy/config-raspap
+
 sudo chown raspap:raspap $PWD/../raspap -R
 sudo chmod 770 $PWD/../raspap
 
@@ -44,6 +51,10 @@ sudo chmod 770 /etc/dhcpd/raspap/
 sudo mkdir -p /etc/hostapd/raspap/
 sudo chown raspap:raspap /etc/hostapd/raspap/ -R
 sudo chmod 770 /etc/hostapd/raspap/
+
+# install raspapd
+cd raspapd/
+python2 setup.py install
 
 echo "RaspAP installed."
 echo "To allow you'r user to overwrite RaspAP files type: "

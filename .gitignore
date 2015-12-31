@@ -1,8 +1,11 @@
 .DS_Store
 .idea
+raspap/.content/cache/applicationIndex.php
+raspap/.content/cache/applicationCache.sqlite3
+raspap/.content/database.sqlite3
+raspap/.content/phpunit-testing.sqlite3
 raspap/vendor
 raspap/.content/app.php
-raspap/.content/cache/RainTPL4
-raspap/.content/cache/applicationCache.sqlite3
+raspap/.content/cache/RainTPL4/*
 raspap/.content/cache/phinx.yaml
 raspap/.content/cache/phpunit.xml.dist

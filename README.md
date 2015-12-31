@@ -51,3 +51,12 @@ At first please install panthera-desktop from here: https://github.com/Panthera-
 
 Please run ./install.sh to install from sources,
 and to run Python daemon please run run-daemon.sh
+
+Next please add following lines to /etc/sudoers:
+
+```bash
+raspap ALL=(root) NOPASSWD: /usr/bin/raspapd-pam
+raspap ALL=(root) NOPASSWD: /srv/http/raspap-webgui/raspapd/raspapd-pam.py
+```
+
+In last line change only `/srv/http/raspap-webgui/raspapd/raspapd-pam.py` to real path to file `/raspapd/raspapd-pam.py` from the project in your filesystem.

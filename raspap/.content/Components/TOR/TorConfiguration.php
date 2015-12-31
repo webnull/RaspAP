@@ -27,7 +27,7 @@ class TorConfiguration extends BaseFrameworkClass
 
         if (!is_file('/etc/tor/torrc-raspap') || !is_writable('/etc/tor/torrc-raspap'))
         {
-            throw new FileException('"/etc/tor/torrc-raspap" is not writable or does not exists', 'TOR_CONFIG_NOT_WRITABLE');
+            throw new FileException('"/etc/tor/torrc-raspap" file is not writable or does not exists', 'TOR_CONFIG_NOT_WRITABLE');
         }
 
         $this->config = file_get_contents('/etc/tor/torrc-raspap');
