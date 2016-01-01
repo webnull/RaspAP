@@ -19,4 +19,12 @@ class BridgeInterface extends WiredInterface
 
         ];
     }
+
+    /**
+     * @return bool
+     */
+    public function canBeUsedInBridge()
+    {
+        return false;
+    }
 }

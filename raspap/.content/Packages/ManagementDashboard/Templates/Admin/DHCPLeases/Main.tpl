@@ -33,10 +33,10 @@
                                     {$address} {if isset($lease.name)}{$lease.name}{/if}
                                 </td>
                                 <td>
-                                    {$lease.starts_ipv4}
+                                    {if isset($lease.starts_ipv4)}{$lease.starts_ipv4}{/if}
                                 </td>
                                 <td>
-                                    {$lease.ends_ipv4}
+                                    {if isset($lease.ends_ipv4)}{$lease.ends_ipv4}{/if}
                                 </td>
                             </tr>
                         {/foreach}

@@ -14,6 +14,11 @@
         <div class="panel panel-primary">
             <div class="panel-heading"><i class="fa fa-signal fa-fw"></i> {$interface->getName()}</div>
             <div class="panel-body">
+                {if $interface->isBridgeConnected()}
+                    <strong>Note:</strong> <i>This interface is already active through a bridge connection with other interface, probably also DHCP server is working on this interface.<br/>
+                    If you want to have an internet connection on this interface it's suggested to leave this interface configured as is (Don't use this interface option with checkox checked - allow other network management applications to use this interface)</i><br/><br/>
+                {/if}
+
                 {$hideDetailsButton=true}
                 {$info=$interface->getInfo()}
 

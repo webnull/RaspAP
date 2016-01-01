@@ -103,6 +103,16 @@ class WirelessInterface extends WiredInterface
     }
 
     /**
+     * Returns plaintext password
+     *
+     * @return string
+     */
+    public function getPassword()
+    {
+        return $this->getHostAPD()->getPassword();
+    }
+
+    /**
      * @return array
      */
     public function getPossibleRoles()
@@ -125,5 +135,28 @@ class WirelessInterface extends WiredInterface
         }
 
         return $this->hostAPD;
+    }
+
+    /**
+     * Wireless interface cannot be joined using a brctl, but could be joined using hostapd
+     *
+     * @return bool
+     */
+    public function canBeUsedInBridge()
+    {
+        return false;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isBridgeConnected()
+    {
+        if ($this->getHostAPD()->isCreatingABridge())
+        {
+            return false;
+        }
+
+        return parent::isBridgeConnected();
     }
 }

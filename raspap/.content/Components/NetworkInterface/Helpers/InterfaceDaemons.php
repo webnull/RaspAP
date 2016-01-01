@@ -45,11 +45,17 @@ class InterfaceDaemons
      *
      * @param string $daemonName
      * @param array|string|null|int $data
+     * @param bool $force Force overwrite previous data
      *
      * @return $this
      */
-    public function put($daemonName, $data = null)
+    public function put($daemonName, $data = null, $force = false)
     {
+        if (isset($this->daemons[$daemonName]) && $force === false)
+        {
+            return $this;
+        }
+
         $this->daemons[$daemonName] = $data;
         return $this;
     }

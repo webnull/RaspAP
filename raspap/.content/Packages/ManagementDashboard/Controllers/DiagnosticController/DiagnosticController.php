@@ -33,10 +33,11 @@ class DiagnosticController extends AbstractAdministrationController
         'iptables'        => 'iptables -S',
         'NAT routing'     => 'iptables -t nat -S',
         'Routing'         => 'route',
+        'Bridges'         => 'brctl show',
         'HostAPD version' => 'hostapd -v',
         'DHCPD version'   => 'dhcpd -h',
         'PHP version'     => 'php -v',
-        'Python 2 version' => 'python2 --version'
+        'Python 2 version' => 'python2 --version',
     ];
 
     /**
@@ -109,7 +110,7 @@ class DiagnosticController extends AbstractAdministrationController
         $interfaceNames = implode('|', $interfaceNames);
 
         $replacement = '<b><i>$0</i></b>';
-        $response = preg_replace('/([\[\(\. ]?)(' . $interfaceNames . ')([ \.:])/i', $replacement, $response);
+        $response = preg_replace('/([\[\(\. ]?)(' . $interfaceNames . ')([\t \.:])/i', $replacement, $response);
 
         // additional keywords replacement
         $additionalKeywords = [

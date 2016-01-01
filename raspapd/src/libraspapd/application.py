@@ -68,12 +68,13 @@ class application (pantheradesktop.kernel.pantheraDesktopApplication, pantherade
 
         thread.terminate()
 
-    def executeCommand(self, command, shell = False):
+    def executeCommand(self, command, shell = False, logging = True):
         """
         Executes a shell command
 
         :param command:
         :param shell: Execute in emulated shell (less secure)
+        :param logging: Output to logger or be quiet
         :return:
         """
 
@@ -85,6 +86,7 @@ class application (pantheradesktop.kernel.pantheraDesktopApplication, pantherade
             pipes = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         else:
             self.logging.output(str(' '.join(command)))
+
             pipes = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
         stdOut, stdErr = pipes.communicate()
@@ -92,7 +94,7 @@ class application (pantheradesktop.kernel.pantheraDesktopApplication, pantherade
         stdOut = stdOut.decode('utf-8')
         stdErr = stdErr.decode('utf-8')
 
-        if pipes.returncode != 0:
+        if pipes.returncode != 0 and logging:
             self.logging.output('Process returned code ' + str(pipes.returncode) + ', and message: "' + stdOut + stdErr + '"')
 
         return (pipes.returncode == 0), stdOut.strip() + stdErr.strip()

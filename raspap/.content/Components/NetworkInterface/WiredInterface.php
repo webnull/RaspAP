@@ -19,6 +19,9 @@ class WiredInterface extends AbstractInterface
     /** @var string $output */
     protected $output = '';
 
+    /** @var null|bool $bridgeStatus */
+    protected $bridgeStatus = null;
+
     /**
      * Parse ifconfig output
      *
@@ -72,7 +75,7 @@ class WiredInterface extends AbstractInterface
      */
     public function isConnected()
     {
-        return (isset($this->details['IPv4']) && $this->details['IPv4']);
+        return (isset($this->details['IPv4']) && $this->details['IPv4']) || $this->isBridgeConnected();
     }
 
     /**
@@ -161,5 +164,35 @@ class WiredInterface extends AbstractInterface
             //'monitor',
             'down',
         ];
+    }
+
+    /**
+     * Check if interface is used in a bridge
+     *
+     * @return bool
+     */
+    public function isBridgeConnected()
+    {
+        if ($this->bridgeStatus === null)
+        {
+            $output = shell_exec('brctl show');
+            $lines = array_map(function ($line)
+                {
+                    return $line . ";\n";
+                }, explode("\n", $output));
+            $output = implode("\n", $lines);
+
+            $this->bridgeStatus = strpos($output, $this->getName() . ';') !== false;
+        }
+
+        return $this->bridgeStatus;
+    }
+
+    /**
+     * @return bool
+     */
+    public function canBeUsedInBridge()
+    {
+        return $this->getName() !== 'lo';
     }
 }

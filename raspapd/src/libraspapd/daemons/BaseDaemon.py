@@ -1,6 +1,7 @@
 #-*- encoding: utf-8 -*-
 import time
 import re
+import os
 
 class BaseDaemon:
     app = None
@@ -110,5 +111,22 @@ class BaseDaemon:
 
         if search:
             return ''.join(search[0])
+
+        return ''
+
+
+    def getBridgeForTheInterface(self):
+        """
+        Check if bridge was defined in hostapd config
+        :return:
+        """
+
+        path = '/etc/hostapd/raspap/'  + self.interface + '.conf'
+
+        if os.path.isfile(path):
+            bridgeName = re.findall('bridge\=([a-z0-9]+)', open(path).read())
+
+            if bridgeName:
+                return bridgeName[0]
 
         return ''

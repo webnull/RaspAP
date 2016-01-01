@@ -1,5 +1,6 @@
 <?php
 namespace RaspAP\Components\NetworkInterface;
+use Panthera\Classes\BaseExceptions\PantheraFrameworkException;
 use \Panthera\Components\Orm\ORMBaseFrameworkObject;
 use Panthera\Components\Kernel\Framework;
 use RaspAP\Components\LinuxNetworkStack\LinuxNetworkStack;
@@ -280,5 +281,14 @@ abstract class AbstractInterface extends ORMBaseFrameworkObject
     public function getDaemons()
     {
         return $this->daemonsList;
+    }
+
+    /**
+     * @throws PantheraFrameworkException
+     * @return bool
+     */
+    public function canBeUsedInBridge()
+    {
+        throw new PantheraFrameworkException('Implement me!', 'IMPLEMENT_ME');
     }
 }

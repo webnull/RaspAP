@@ -8,6 +8,7 @@ use RaspAP\Classes\IniSupport;
 use RaspAP\Components\DHCPD\DHCPD;
 use RaspAP\Components\NetworkInterface\AbstractInterface;
 use RaspAP\Components\NetworkInterface\BridgeInterface;
+use RaspAP\Components\NetworkInterface\InterfacesList;
 use RaspAP\Components\NetworkInterface\WirelessInterface;
 
 /**
@@ -26,6 +27,11 @@ class HostAPDInterface extends AbstractConfigClass
      * @var string $configPath
      */
     protected $configPath;
+
+    /**
+     * @var array
+     */
+    protected $ipTablesRoutingData = [];
 
     /**
      * Constructor
@@ -55,6 +61,7 @@ class HostAPDInterface extends AbstractConfigClass
             fclose($fp);
         }
 
+        $this->ipTablesRoutingData = $this->interface->getDaemons()->get('iptablesRouting') ? $this->interface->getDaemons()->get('iptablesRouting') : [];
         $this->data = parse_ini_file($this->configPath);
     }
 
@@ -198,7 +205,13 @@ class HostAPDInterface extends AbstractConfigClass
 
                     if ($type === 'WPA2SharedKey')
                     {
-                        $this->data['wpa_passphrase'] = $passphrase;
+                        if (isset($this->data['wpa_passphrase']))
+                        {
+                            unset($this->data['wpa_passphrase']);
+                        }
+
+                        $this->data['wpa_psk'] = $this->generatePassphrase($passphrase);
+                        $this->ipTablesRoutingData['password'] = $passphrase;
                     }
                     else
                     {
@@ -241,15 +254,95 @@ class HostAPDInterface extends AbstractConfigClass
     }
 
     /**
+     * @param string $password
+     */
+    protected function generatePassphrase($password)
+    {
+        if (!isset($this->data['ssid']))
+        {
+            throw new \UnexpectedValueException('ssid not defined, please use setup() first');
+        }
+
+        $output = shell_exec('wpa_passphrase "' . $this->data['ssid'] . '" "' . $password . '"');
+        preg_match('/psk\=([a-zA-Z0-9]+)/', $output, $matches);
+
+        if (!is_array($matches) || !isset($matches[1]))
+        {
+            throw new \UnexpectedValueException('wpa_passphrase command returned invalid output - ' . $output);
+        }
+
+        return $matches[1];
+    }
+
+    /**
+     * List of interfaces to bridge with
+     *
+     * @param string[] $interfaces
+     * @return $this
+     */
+    public function bridgeWithInterfaces(array $interfaces)
+    {
+        $list = new InterfacesList();
+
+        foreach ($interfaces as $key => $interface)
+        {
+            if (!$list->hasInterface($interface))
+            {
+                unset($interfaces[$key]);
+            }
+        }
+
+        $this->ipTablesRoutingData['bridge'] = $interfaces;
+        return $this;
+    }
+
+    /**
+     * Checks if current interface is in a bridge with other
+     *
+     * @param string $interfaceName
+     * @return bool
+     */
+    public function isInBridgeWith($interfaceName)
+    {
+        if ($interfaceName instanceof AbstractInterface)
+        {
+            $interfaceName = $interfaceName->getName();
+        }
+
+        return isset($this->ipTablesRoutingData['bridge']) && in_array($interfaceName, $this->ipTablesRoutingData['bridge']);
+    }
+
+    /**
+     * @return bool
+     */
+    public function isCreatingABridge()
+    {
+        return isset($this->ipTablesRoutingData['bridge']) && $this->ipTablesRoutingData['bridge'];
+    }
+
+    /**
+     * Get plaintext password (not WPA-PSK)
+     * Plaintext password is kept in SQLite3 database in daemons table
+     * and PSK version is kept in configuration file
+     *
+     * @return string
+     */
+    public function getPassword()
+    {
+        $data = $this->interface->getDaemons()->get('hostapd');
+        return isset($data['password']) ? $data['password'] : '';
+    }
+
+    /**
      * @param BridgeInterface $bridgeInterface
      *
      * @return $this;
      */
-    public function connectToBridgeInterface(BridgeInterface $bridgeInterface)
+    /*public function connectToBridgeInterface(BridgeInterface $bridgeInterface)
     {
         $this->data['bridge'] = $bridgeInterface->getName();
         return $this;
-    }
+    }*/
 
     /**
      * DFS/Radar detection (ieee80211h)
@@ -514,7 +607,7 @@ class HostAPDInterface extends AbstractConfigClass
         }
 
         $this->interface->getDaemons()->put('dhcpd');
-        $this->interface->getDaemons()->put('iptablesRouting');
+        $this->interface->getDaemons()->put('iptablesRouting', $this->ipTablesRoutingData);
         $this->interface->getDaemons()->put('hostapd');
         $this->interface->setRole('access_point');
         $this->interface->save();

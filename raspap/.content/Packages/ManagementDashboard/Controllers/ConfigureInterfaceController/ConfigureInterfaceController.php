@@ -59,6 +59,7 @@ class ConfigureInterfaceController extends AbstractAdministrationController
     {
         $response = new Response([], 'Admin/ConfigureInterface/Main.tpl');
         $response->assign([
+            'interfaces' => $this->interfaces->getInterfaces(),
             'interface' => $this->interface,
         ]);
 
@@ -97,6 +98,9 @@ class ConfigureInterfaceController extends AbstractAdministrationController
                 $this->request->post('AP_Passphrase'),
                 $this->request->post('AP_Pairwise')
             );
+
+            // bridge mode
+            $hostAPD->bridgeWithInterfaces((array)$this->request->post('AP_BridgeInterfaces'));
 
             $hostAPD->setFrameProtection($this->request->post('AP_FrameProtection'));
             $hostAPD->setCountryCode($this->request->post('AP_CountryCode'));

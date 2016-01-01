@@ -65,6 +65,17 @@ class InterfacesList extends \Panthera\Components\Kernel\BaseFrameworkClass
     }
 
     /**
+     * Check if interface exists
+     *
+     * @param string $name
+     * @return bool
+     */
+    public function hasInterface($name)
+    {
+        return isset($this->interfaces[$name]);
+    }
+
+    /**
      * Parse basically only names of interfaces from "iwconfig" output
      */
     protected function parseIWConfig()

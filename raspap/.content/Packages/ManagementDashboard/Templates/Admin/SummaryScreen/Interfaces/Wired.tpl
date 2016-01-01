@@ -12,6 +12,10 @@
             {if $interface->getBroadcastAddress()}<b>Broadcast</b>: {$interface->getBroadcastAddress()}<br />{/if}
             {if $interface->getGatewayAddress()}<b>Gateway</b>: {$interface->getGatewayAddress()}<br />{/if}
 
+            {if $interface->isBridgeConnected()}
+                <b>Bridge:</b> <span style="color: red;">connected</span><br/>
+            {/if}
+
             <br />
             {include "Admin/SummaryScreen/StatisticsBlock.tpl"}
             {include "Admin/SummaryScreen/ConfigureButton.tpl"}
