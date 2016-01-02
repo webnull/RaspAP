@@ -187,6 +187,38 @@ class LinuxNetworkStack extends AbstractConfigClass
     }
 
     /**
+     * @return string
+     */
+    public function getIPAddress()
+    {
+        return $this->get('address');
+    }
+
+    /**
+     * @return string
+     */
+    public function getGatewayAddress()
+    {
+        return $this->get('gateway');
+    }
+
+    /**
+     * @return string
+     */
+    public function getBroadcastAddress()
+    {
+        return $this->get('broadcast');
+    }
+
+    /**
+     * @return string
+     */
+    public function getNetmaskAddress()
+    {
+        return $this->get('netmask');
+    }
+
+    /**
      * @return bool
      */
     public function isStaticClient()

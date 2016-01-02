@@ -41,6 +41,19 @@
 </tr>
 
 <tr class="role_access_point role_all">
+    <td class="formTitle" alt="Create a single subnet for multiple interfaces (bridge mode). For example wireless and cable connected users could see each other.">Link with interfaces:</td>
+    <td>
+        <?php $counter1=-1; $newVar=$interfaces; if(isset($newVar)&&(is_array($newVar)||$newVar instanceof Traversable)&& sizeof($newVar))foreach($newVar as $key1 => $w){ $counter1++; ?>
+
+            <?php if($w->getName() == $interface->getName() || !$w->canBeUsedInBridge()){ continue; }?>
+
+            <input type="checkbox" name="AP_BridgeInterfaces[]" value="<?php print($w->getName());?>" <?php if($interface->getHostAPD()->isInBridgeWith($w)){?> checked <?php }?>> <?php print($w->getName());?><br>
+        <?php }?>
+
+    </td>
+</tr>
+
+<tr class="role_access_point role_all">
     <?php $encryption=$interface->getHostAPD()->getEncryptionType();?>
 
     <td class="formTitle">Encryption:</td>
@@ -58,7 +71,7 @@
 <tr class="role_access_point role_all" id="wpa_passphrase_field">
     <td class="formTitle">Passphrase:</td>
     <td>
-        <input type="text" name="AP_Passphrase" value="<?php print($interface->getHostAPD()->getPassphrase());?>">
+        <input type="text" name="AP_Passphrase" value="<?php print($interface->getPassword());?>">
     </td>
 </tr>
 

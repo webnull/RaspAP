@@ -14,10 +14,16 @@
             <?php if($interface->getGatewayAddress()){?><b>Gateway</b>: <?php print($interface->getGatewayAddress());?><br /><?php }?>
 
 
-            <br />
-            <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/StatisticsBlock.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl", 16, 799);?>
+            <?php if($interface->isBridgeConnected()){?>
 
-            <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/ConfigureButton.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl", 17, 863);?>
+                <b>Bridge:</b> <span style="color: red;">connected</span><br/>
+            <?php }?>
+
+
+            <br />
+            <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/StatisticsBlock.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl", 20, 946);?>
+
+            <?php extract($this->variables); require $this->checkTemplate("Admin/SummaryScreen/ConfigureButton.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl", 21, 1010);?>
 
         </div>
     </div>

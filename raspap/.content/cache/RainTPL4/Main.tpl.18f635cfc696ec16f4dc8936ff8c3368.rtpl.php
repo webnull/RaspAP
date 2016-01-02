@@ -39,11 +39,11 @@
 
                                 </td>
                                 <td>
-                                    <?php print($lease["starts_ipv4"]);?>
+                                    <?php if(isset($lease["starts_ipv4"])){ print($lease["starts_ipv4"]); }?>
 
                                 </td>
                                 <td>
-                                    <?php print($lease["ends_ipv4"]);?>
+                                    <?php if(isset($lease["ends_ipv4"])){ print($lease["ends_ipv4"]); }?>
 
                                 </td>
                             </tr>
@@ -55,4 +55,4 @@
         </div>
     </div>
 </div>
-<?php extract($this->variables); require $this->checkTemplate("Layout/Footer.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl", 49, 1793);?>
+<?php extract($this->variables); require $this->checkTemplate("Layout/Footer.tpl", "/srv/http/raspap-webgui/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl", 49, 1861);?>

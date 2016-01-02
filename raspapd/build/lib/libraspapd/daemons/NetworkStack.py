@@ -205,7 +205,7 @@ class NetworkStack(BaseDaemon):
         :return: bool
         """
 
-        command = [ "ifconfig", interface, "down" ]
+        command = ["ifconfig", interface, "down"]
 
         if self.app.commandsPrefix:
             command = self.app.commandsPrefix + command
