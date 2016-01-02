@@ -29,7 +29,7 @@ and where runs dependencies.
 - raintpl4 (will install automaticaly with composer)
 - isc-dhcp (install using OS package manager)
 - dhclient (install using OS package manager)
-- pam (pecl extension) (install using OS package manager)
+- python-pam (install via PIP for Python 2.7 - `sudo pip2 install python-pam`)
 
 ## Optional dependencies
 - tor

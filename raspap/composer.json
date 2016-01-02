@@ -2,7 +2,6 @@
     "minimum-stability": "dev",
     "require": {
         "pantheraframework\/panthera": "dev-master",
-        "ext-pam": ">=1.0.3",
         "psy\/psysh": "master",
         "robmorgan\/phinx": "0.4.*"
     },

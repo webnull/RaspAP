@@ -13,6 +13,9 @@ then
     sudo apt install php php5-sqlite python2.7 isc-dhcp-server tor privoxy hostapd
 fi
 
+# install python dependenices
+sudo pip2 install python-pam
+
 cd raspap
 
 # install composer
@@ -20,13 +23,11 @@ echo "~> Installing composer"
 php -r "readfile('https://getcomposer.org/installer');" | php
 php composer.phar install
 
-pwd=`pwd`
-
+#pwd=`pwd`
 # update pf2 as there is a temporary problem on packagist
-cd ../raspap/vendor/pantheraframework/panthera
-git pull
-
-cd $pwd
+#cd ../raspap/vendor/pantheraframework/panthera
+#git pull
+#cd $pwd
 
 # clean up composer
 echo "~> Cleaning up composer"

@@ -9,3 +9,4 @@ raspap/.content/app.php
 raspap/.content/cache/RainTPL4/*
 raspap/.content/cache/phinx.yaml
 raspap/.content/cache/phpunit.xml.dist
+raspap/.content/cache/sessions/*
