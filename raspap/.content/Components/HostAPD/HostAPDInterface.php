@@ -61,7 +61,10 @@ class HostAPDInterface extends AbstractConfigClass
             fclose($fp);
         }
 
+        // load data into array to operate on, and then save back
         $this->ipTablesRoutingData = $this->interface->getDaemons()->get('iptablesRouting') ? $this->interface->getDaemons()->get('iptablesRouting') : [];
+        $this->hostapdData = $this->interface->getDaemons()->get('hostapd') ? $this->interface->getDaemons()->get('hostapd') : [];
+
         $this->data = parse_ini_file($this->configPath);
     }
 
@@ -173,7 +176,7 @@ class HostAPDInterface extends AbstractConfigClass
             'auth_algs',
             'wpa',
             'wpa_psk_file',
-            'wpa_passphrase',
+            'wpa_psk',
             'rsn_pairwise',
             'wpa_pairwise',
             'wep_default_key',
@@ -211,7 +214,7 @@ class HostAPDInterface extends AbstractConfigClass
                         }
 
                         $this->data['wpa_psk'] = $this->generatePassphrase($passphrase);
-                        $this->ipTablesRoutingData['password'] = $passphrase;
+                        $this->hostapdData['password'] = $passphrase;
                     }
                     else
                     {
@@ -292,7 +295,16 @@ class HostAPDInterface extends AbstractConfigClass
             }
         }
 
+        // generates a bridge interface name to setup bridge later
+        $bridgeNumber = 0;
+        while (file_exists('/sys/class/net/br' . $bridgeNumber))
+        {
+            $bridgeNumber++;
+        }
+
         $this->ipTablesRoutingData['bridge'] = $interfaces;
+        $this->set('bridge', 'br' . $bridgeNumber);
+
         return $this;
     }
 
@@ -329,8 +341,7 @@ class HostAPDInterface extends AbstractConfigClass
      */
     public function getPassword()
     {
-        $data = $this->interface->getDaemons()->get('hostapd');
-        return isset($data['password']) ? $data['password'] : '';
+        return isset($this->hostapdData['password']) ? $this->hostapdData['password'] : '';
     }
 
     /**
@@ -523,7 +534,7 @@ class HostAPDInterface extends AbstractConfigClass
      */
     public function getEncryptionType()
     {
-        if ($this->get('wpa_psk_file') || $this->get('wpa_passphrase'))
+        if ($this->get('wpa_psk_file') || $this->get('wpa_psk'))
         {
             if ($this->get('wpa_psk_file'))
             {
@@ -583,7 +594,7 @@ class HostAPDInterface extends AbstractConfigClass
      */
     public function getPassphrase()
     {
-        return $this->get('wpa_passphrase', '') ? $this->get('wpa_passphrase', '') : hex2bin($this->get('wep_key0', ''));
+        return $this->get('wpa_psk', '') ? $this->get('wpa_psk', '') : hex2bin($this->get('wep_key0', ''));
     }
 
     /**
@@ -608,7 +619,7 @@ class HostAPDInterface extends AbstractConfigClass
 
         $this->interface->getDaemons()->put('dhcpd');
         $this->interface->getDaemons()->put('iptablesRouting', $this->ipTablesRoutingData);
-        $this->interface->getDaemons()->put('hostapd');
+        $this->interface->getDaemons()->put('hostapd', $this->hostapdData);
         $this->interface->setRole('access_point');
         $this->interface->save();
 

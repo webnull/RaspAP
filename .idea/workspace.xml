@@ -4,20 +4,34 @@
     <bookmark url="file://$PROJECT_DIR$/raspap/.content/Components/StartupComponent/StartupComponent.php" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2287ba0a-985d-468e-9441-1d6e53b2909d" name="Default" comment="Vendor support, clean up">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/damian.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/raspap-webgui.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="2287ba0a-985d-468e-9441-1d6e53b2909d" name="Default" comment="Updated scripts">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/applicationCache.sqlite3" afterPath="$PROJECT_DIR$/raspap/.content/cache/applicationCache.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/database.sqlite3" afterPath="$PROJECT_DIR$/raspap/.content/database.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run-daemon.sh" afterPath="$PROJECT_DIR$/run-daemon.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/AccessPoint.tpl.0b53f0e9916d1122786214dfd1b1db11.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/AccessPoint.tpl.0b53f0e9916d1122786214dfd1b1db11.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/AccessPoint.tpl.fef28fdc6fcc8a129fdbf397b5b15f11.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/AccessPoint.tpl.fef28fdc6fcc8a129fdbf397b5b15f11.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Bridge.tpl.06b921620b8dabb25cc4292b071a9a1e.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Bridge.tpl.06b921620b8dabb25cc4292b071a9a1e.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Client.tpl.28d00164269733f83b78b30e9dbe830b.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Client.tpl.28d00164269733f83b78b30e9dbe830b.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/ConfigureButton.tpl.3a8038baba548ca052da5081bb749ec6.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/ConfigureButton.tpl.3a8038baba548ca052da5081bb749ec6.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Down.tpl.f1624b65e91c769009d8d3df7d1c3639.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Down.tpl.f1624b65e91c769009d8d3df7d1c3639.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Footer.tpl.22637c2f31580d5d2192dee0c91d320f.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Footer.tpl.22637c2f31580d5d2192dee0c91d320f.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/FormInput.tpl.3819b89e5c836b9834500053ccdabdcf.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/FormInput.tpl.3819b89e5c836b9834500053ccdabdcf.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/FormInput.tpl.8970d4333a240e471a999999a0358f5e.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/FormInput.tpl.8970d4333a240e471a999999a0358f5e.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Header.tpl.f5262c152916451c2b9e330e0cd60312.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Header.tpl.f5262c152916451c2b9e330e0cd60312.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php" afterPath="$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Loopback.tpl.32216f6163174ff65213852ff8101080.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Loopback.tpl.32216f6163174ff65213852ff8101080.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.18f635cfc696ec16f4dc8936ff8c3368.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.18f635cfc696ec16f4dc8936ff8c3368.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.3f0c35bfd044f0f3344e317248903606.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.3f0c35bfd044f0f3344e317248903606.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.b2f3c3c8797ebc751b2e3434e336c5e4.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.b2f3c3c8797ebc751b2e3434e336c5e4.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.dc7607be8e07b97d4f2af6e3fa924048.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.dc7607be8e07b97d4f2af6e3fa924048.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.ecd061136ff503784651df46ecfa0f70.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Main.tpl.ecd061136ff503784651df46ecfa0f70.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/ManagePasswords.tpl.fa59ee2615c99bc608ada137ae9f9521.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/ManagePasswords.tpl.fa59ee2615c99bc608ada137ae9f9521.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/ModalNotice.tpl.11784760e264f8142b24fdd77ec73039.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/ModalNotice.tpl.11784760e264f8142b24fdd77ec73039.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/ModalResponse.tpl.18407c5f6e553f6b0b62e8d01e729728.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/ModalResponse.tpl.18407c5f6e553f6b0b62e8d01e729728.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Monitor.tpl.0b5004f3a2dd29fd00ed00272a1097e1.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Monitor.tpl.0b5004f3a2dd29fd00ed00272a1097e1.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/StatisticsBlock.tpl.9c4732dc728ed3ad6df9adb6ba95ea11.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/StatisticsBlock.tpl.9c4732dc728ed3ad6df9adb6ba95ea11.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Wired.tpl.8e89f6bc60a8d99e76257ffe53f1e334.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Wired.tpl.8e89f6bc60a8d99e76257ffe53f1e334.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Wireless.tpl.af775c4e7b3bc60961ed7005a08ef922.rtpl.php" afterPath="$PROJECT_DIR$/raspap/.content/cache/RainTPL4/Wireless.tpl.af775c4e7b3bc60961ed7005a08ef922.rtpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="raspap-webgui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +45,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -42,104 +56,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
+      <file leaf-file-name="HostAPDInterface.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.655172" vertical-offset="480" max-vertical-offset="986">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7007722" vertical-offset="4652" max-vertical-offset="10761">
+              <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run-webpanel.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run-webpanel.sh">
+      <file leaf-file-name="WiredInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-              <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="3451">
+              <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspap/.content/app.php">
+      <file leaf-file-name="WirelessInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WirelessInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="986">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2262" max-vertical-offset="2822">
+              <caret line="159" column="15" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspap/.content/Templates/Layout/Header.tpl">
+      <file leaf-file-name="DiagnosticController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DiagnosticController/DiagnosticController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2074">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state vertical-scroll-proportion="-8.653846" vertical-offset="1543" max-vertical-offset="2788">
+              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspap/js/admin.js">
+      <file leaf-file-name="AccessPoint.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="646">
-              <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="2023">
+              <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConfigureInterfaceController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php">
+      <file leaf-file-name="Wired.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2754">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="493">
+              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/raspap/index.php">
+      <file leaf-file-name="Main.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="918">
+              <caret line="38" column="87" selection-start-line="38" selection-start-column="87" selection-end-line="38" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run-daemon.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run-daemon.sh">
+      <file leaf-file-name="Main.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Main.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="765">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="Main.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/Main.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="850">
+              <caret line="18" column="259" selection-start-line="18" selection-start-column="259" selection-end-line="18" selection-end-column="259" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/install.sh">
+      <file leaf-file-name="Wireless.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wireless.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13138686" vertical-offset="132" max-vertical-offset="680">
-              <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,65 +169,66 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/raspap/.content/Classes/DaemonUtils.php" />
-        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Cache/Drivers/SQLite3CacheDriver.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl" />
-        <option value="$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl" />
-        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WirelessInterface.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/controller.yml" />
-        <option value="$PROJECT_DIR$/dist/css/custom.css" />
-        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/Helpers/InterfaceDaemons.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/Components/TOR/TorEntity.php" />
-        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Controller/Response.php" />
-        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Autoloader/Autoloader.php" />
-        <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Validator/Validator.php" />
         <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Controller/Request.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Classes/IP.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Components/TOR/Privoxy.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/Components/TOR/TorConfiguration.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/TOR/Main.tpl" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ModalResponse.tpl" />
         <option value="$PROJECT_DIR$/raspap/js/ManagementDashboard/TOR.js" />
         <option value="$PROJECT_DIR$/raspap/.content/Classes/AbstractConfigClass.php" />
-        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/Client.tpl" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl" />
-        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/ClientCableStatic.tpl" />
-        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl" />
         <option value="$PROJECT_DIR$/raspap/.content/Components/LinuxNetworkStack/LinuxNetworkStack.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Components/Controller/AbstractAdministrationController.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/LoginController/controller.yml" />
         <option value="$PROJECT_DIR$/raspap/.content/Components/StartupComponent/StartupComponent.php" />
         <option value="$PROJECT_DIR$/raspap/js/admin.js" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/Login.tpl" />
-        <option value="$PROJECT_DIR$/raspap/.content/Components/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/LoginController/LoginController.php" />
         <option value="$PROJECT_DIR$/raspap/.content/version.yml" />
         <option value="$PROJECT_DIR$/raspap/.content/Templates/Layout/Header.tpl" />
         <option value="$PROJECT_DIR$/../pantheraframework2/lib/Components/Router/RouteHandler.php" />
         <option value="$PROJECT_DIR$/../pantheraframework2/lib/Classes/Tests/phpunit.bootstrap.php" />
-        <option value="$PROJECT_DIR$/raspap/index.php" />
         <option value="$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/init.php" />
         <option value="$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Components/Kernel/Framework.php" />
         <option value="$PROJECT_DIR$/raspap/composer.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/raspap/.content/app.php" />
         <option value="$PROJECT_DIR$/run-daemon.sh" />
-        <option value="$PROJECT_DIR$/install.sh" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/run-webpanel.sh" />
+        <option value="$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Components/Router/RouteHandler.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/BasePackage/Controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/raspap/index.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/app.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/MacAddress/MacAddress.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/TOR/TorConfiguration.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/install.sh" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/Auth/AuthController.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/Helpers/InterfaceDaemons.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/BridgeInterface.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/AbstractInterface.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/InterfacesList.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/Main.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WirelessInterface.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DiagnosticController/DiagnosticController.php" />
+        <option value="$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
-    <option name="width" value="1358" />
-    <option name="height" value="741" />
+    <option name="x" value="-2" />
+    <option name="y" value="24" />
+    <option name="width" value="1370" />
+    <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -273,7 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="raspapd" />
+              <option name="myItemId" value="raspap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,6 +302,10 @@
               <option name="myItemId" value="raspap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -298,15 +314,17 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
-    <property name="last_opened_file_path" value="/tmp/cachegrind.out.29979" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/raspap/.content/Packages" />
       <recent name="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController" />
       <recent name="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/raspap/.content/Packages/BasePackage/Controllers/IndexController" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin" />
       <recent name="$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms" />
@@ -417,17 +435,76 @@
       <option name="project" value="LOCAL" />
       <updated>1450476162387</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Clean up">
+      <created>1450477592182</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1450477592182</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixed permissions in install.sh">
+      <created>1450508547991</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1450508547991</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Fixed path in install.sh">
+      <created>1450508683959</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1450508683959</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Updated install scripts">
+      <created>1450512806195</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1450512806195</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Updated scripts">
+      <created>1450513622327</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1450513622327</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Support for IndexController,">
+      <created>1450565600575</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1450565600575</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Adjusted app.php">
+      <created>1450733764256</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1450733764256</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added additional security">
+      <created>1451298034347</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1451298034347</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed permissions, added raspapd-pam.py">
+      <created>1451561766642</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1451561766642</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Implemented bridging and sharing internet connection on wired interface">
+      <created>1451691534143</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1451691534143</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1358" height="741" extended-state="4" />
+    <frame x="-2" y="24" width="1370" height="748" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27896342" sideWeight="0.49916247" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16993958" sideWeight="0.49916247" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -436,12 +513,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294702" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17759146" sideWeight="0.5008375" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -462,222 +540,31 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Clean up, DHCP/Static client support (initial)" />
-    <MESSAGE value="Clean up" />
     <MESSAGE value="Added authorization and login screen" />
     <MESSAGE value="Improved support of PHP Builtin Server" />
     <MESSAGE value="Vendor support, clean up" />
     <MESSAGE value="Instalation scripts" />
     <MESSAGE value="Updated readme" />
     <MESSAGE value="Added run-webpanel.sh script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added run-webpanel.sh script" />
+    <MESSAGE value="Clean up" />
+    <MESSAGE value="Fixed permissions in install.sh" />
+    <MESSAGE value="Fixed path in install.sh" />
+    <MESSAGE value="Updated install scripts" />
+    <MESSAGE value="Updated scripts" />
+    <MESSAGE value="Support for IndexController," />
+    <MESSAGE value="Adjusted app.php" />
+    <MESSAGE value="Added additional security" />
+    <MESSAGE value="Changed permissions, added raspapd-pam.py" />
+    <MESSAGE value="Implemented bridging and sharing internet connection on wired interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented bridging and sharing internet connection on wired interface" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/raspap/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/TorEntity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.230769" vertical-offset="1281" max-vertical-offset="1819">
-          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Classes/IniSupport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1360">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Classes/IP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="493">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/Privoxy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1938">
-          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/js/ManagementDashboard/TOR.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49815497" vertical-offset="427" max-vertical-offset="1054">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/TorConfiguration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="3111">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11543">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ModalResponse.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39921722" vertical-offset="0" max-vertical-offset="511">
-          <caret line="12" column="147" selection-start-line="12" selection-start-column="132" selection-end-line="12" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/TOR/Main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1717">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Classes/AbstractConfigClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8846154" vertical-offset="688" max-vertical-offset="1564">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wireless.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33463797" vertical-offset="50" max-vertical-offset="561">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/InterfacesList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2618">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/Main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76516634" vertical-offset="0" max-vertical-offset="765">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="67.34615" vertical-offset="2261" max-vertical-offset="3264">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/AccessPoint.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="502">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/js/ManagementDashboard/ConfigureInterface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/FormInput.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36594912" vertical-offset="561" max-vertical-offset="1309">
-          <caret line="44" column="90" selection-start-line="44" selection-start-column="90" selection-end-line="44" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8440" max-vertical-offset="9010">
-          <caret line="502" column="20" selection-start-line="502" selection-start-column="20" selection-end-line="502" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/AbstractInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2974" max-vertical-offset="4862">
-          <caret line="139" column="20" selection-start-line="139" selection-start-column="20" selection-end-line="139" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/ClientCableStatic.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="544">
-          <caret line="24" column="95" selection-start-line="24" selection-start-column="95" selection-end-line="24" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1500" max-vertical-offset="2890">
-          <caret line="90" column="39" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspapd/src/libraspapd/args.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Binaries/install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Binaries/build-debian-package">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/LinuxNetworkStack/LinuxNetworkStack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.423077" vertical-offset="3095" max-vertical-offset="4012">
-          <caret line="224" column="9" selection-start-line="224" selection-start-column="9" selection-end-line="224" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ManagePasswordsController/controller.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="4" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/LoginController/controller.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
@@ -709,20 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="24.884615" vertical-offset="1106" max-vertical-offset="1870">
-          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/LoginController/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="1292">
-          <caret line="33" column="96" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspap/.content/version.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09189189" vertical-offset="0" max-vertical-offset="555">
@@ -734,23 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="646">
           <caret line="25" column="46" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2754">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/Templates/Layout/Header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2074">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,24 +617,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Components/Kernel/Framework.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32945737" vertical-offset="0" max-vertical-offset="7055">
-          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7906977" vertical-offset="0" max-vertical-offset="1377">
           <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41776937" vertical-offset="0" max-vertical-offset="529">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -789,68 +631,323 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/cache/applicationIndex.php">
+    <entry file="file://$PROJECT_DIR$/run-daemon.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7996071" vertical-offset="460" max-vertical-offset="2193">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/raspap/.content/app.php">
+    <entry file="file://$PROJECT_DIR$/raspap/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="986">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Templates/Layout/Header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2074">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/package.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Components/Router/RouteHandler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="28" max-vertical-offset="2533">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run-webpanel.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/raspap/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/controller.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/cache/applicationIndex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7092338" vertical-offset="1905" max-vertical-offset="2567">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/BasePackage/Controllers/IndexController/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="493">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Components/Controller/BaseFrameworkController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="2125">
+          <caret line="13" column="100" selection-start-line="13" selection-start-column="77" selection-end-line="13" selection-end-column="100" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run-daemon.sh">
+    <entry file="file://$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Packages/BasePackage/Controllers/IndexController/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="476">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1071">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/LoginController/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="1275">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1153846" vertical-offset="5510" max-vertical-offset="17340">
+          <caret line="335" column="9" selection-start-line="335" selection-start-column="9" selection-end-line="335" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/TorEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1751">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Components/Orm/ORMBaseFrameworkObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="7735">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Classes/Tests/phpunit.bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3468992" vertical-offset="2881" max-vertical-offset="4063">
+          <caret line="182" column="6" selection-start-line="182" selection-start-column="6" selection-end-line="182" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/TORController/TORController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3468992" vertical-offset="178" max-vertical-offset="3162">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/TOR/TorConfiguration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45910782" vertical-offset="212" max-vertical-offset="3094">
+          <caret line="28" column="9" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/vendor/pantheraframework/panthera/lib/Components/Kernel/Framework.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14126395" vertical-offset="535" max-vertical-offset="7633">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="e#45#103#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8093458" vertical-offset="604" max-vertical-offset="1139">
+          <caret line="61" column="48" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.655172" vertical-offset="480" max-vertical-offset="986">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run-webpanel.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/install.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13138686" vertical-offset="132" max-vertical-offset="680">
-          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.73656845" vertical-offset="510" max-vertical-offset="1122">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/MacAddress/MacAddress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271375" vertical-offset="25" max-vertical-offset="1292">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/Auth/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5949612" vertical-offset="1665" max-vertical-offset="2584">
+          <caret line="117" column="44" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/HostAPD/PSKCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="2839">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/Helpers/InterfaceDaemons.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47900763" vertical-offset="667" max-vertical-offset="1598">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/BridgeInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89642185" vertical-offset="0" max-vertical-offset="595">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/InterfacesList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1018" max-vertical-offset="2805">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/AbstractInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4552" max-vertical-offset="5083">
+          <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
+          <folding>
+            <element signature="e#52#115#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/ConfigureInterfaceController/ConfigureInterfaceController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1522" max-vertical-offset="2958">
+          <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wireless.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Forms/Modes/AccessPoint.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="2023">
+          <caret line="38" column="118" selection-start-line="38" selection-start-column="118" selection-end-line="38" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="765">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/ConfigureInterface/Main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="850">
+          <caret line="18" column="259" selection-start-line="18" selection-start-column="259" selection-end-line="18" selection-end-column="259" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/SummaryScreen/Interfaces/Wired.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="493">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Templates/Admin/DHCPLeases/Main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="918">
+          <caret line="38" column="87" selection-start-line="38" selection-start-column="87" selection-end-line="38" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WiredInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1000" max-vertical-offset="3451">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="78" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/NetworkInterface/WirelessInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2262" max-vertical-offset="2822">
+          <caret line="159" column="15" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Packages/ManagementDashboard/Controllers/DiagnosticController/DiagnosticController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.653846" vertical-offset="1543" max-vertical-offset="2788">
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/raspap/.content/Components/HostAPD/HostAPDInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7007722" vertical-offset="4652" max-vertical-offset="10761">
+          <caret line="303" column="0" selection-start-line="303" selection-start-column="0" selection-end-line="303" selection-end-column="0" />
           <folding />
         </state>
       </provider>
