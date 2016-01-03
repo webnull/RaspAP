@@ -45,7 +45,7 @@ class WiredInterface extends AbstractInterface
         $this->extractData('/mask([: ])?([0-9.]+)/i', 'Netmask');
 
         // Associated IPv6 address
-        $this->extractData('/(inet6 |inet6 addr:)([0-9a-z\:]+)/i', 'IPv6');
+        $this->extractData('/(inet6 addr: |inet6 )([0-9a-z\: ]+)/i', 'IPv6');
 
         // RX packets
         $this->parsePackets('received');
@@ -124,22 +124,47 @@ class WiredInterface extends AbstractInterface
      */
     protected function parsePackets($type)
     {
-        preg_match('/' . (($type === 'received') ? 'RX' : 'TX') . ' packets(:|) ([0-9]+)([ ]+)?bytes([ ]+)([0-9]+)/i', $this->output, $data);
+        $success = false;
 
         // RX errors 0  dropped 0  overruns 0  frame 0
-        preg_match('/' . (($type === 'received') ? 'RX' : 'TX') . ' errors([ ]+)?([0-9]+)([ ]+)?dropped([ ]+)([0-9]+)([ ]+)?overruns([ ]+)([0-9]+)/i', $this->output, $dataErrors);
-
-        if (count($data) === 6 && count($dataErrors) === 9)
+        if (
+            preg_match('/' . (($type === 'received') ? 'RX' : 'TX') . ' packets(:|) ([0-9]+)([ ]+)?bytes([ ]+)([0-9]+)/i', $this->output, $data) &&
+            preg_match('/' . (($type === 'received') ? 'RX' : 'TX') . ' errors([ ]+)?([0-9]+)([ ]+)?dropped([ ]+)([0-9]+)([ ]+)?overruns([ ]+)([0-9]+)/i', $this->output, $dataErrors)
+        )
         {
-            $this->details[$type] = [
-                'packets' => (int)$data[2],
-                'bytes'   => (int)$data[5],
-                'errors'  => (int)$dataErrors[2],
-                'dropped' => (int)$dataErrors[5],
-                'overruns'=> (int)$dataErrors[8],
-            ];
+            if (count($data) === 6 && count($dataErrors) === 9)
+            {
+                $this->details[$type] = [
+                    'packets' => (int)$data[2],
+                    'bytes'   => (int)$data[5],
+                    'errors'  => (int)$dataErrors[2],
+                    'dropped' => (int)$dataErrors[5],
+                    'overruns'=> (int)$dataErrors[8],
+                ];
+
+                $success = true;
+            }
         }
         else
+        {
+            preg_match('/' . (($type === 'received') ? 'RX' : 'TX') . ' packets:([0-9]+) errors:([0-9]+) dropped:([0-9]+) overruns:([0-9]+)/i', $this->output, $data);
+
+            if (count($data) === 5)
+            {
+                $this->details[$type] = [
+                    'packets' => $data[1],
+                    'bytes'   => 0,
+                    'errors'  => $data[2],
+                    'dropped' => $data[3],
+                    'overruns'=> $data[4],
+                ];
+
+                $success = true;
+            }
+        }
+
+
+        if (!$success)
         {
             throw new PantheraFrameworkException('Regexp error, cannot parse ifconfig output for received/transmitted packets', 'RX_PARSING_ERROR');
         }

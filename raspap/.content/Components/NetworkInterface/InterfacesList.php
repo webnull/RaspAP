@@ -81,6 +81,10 @@ class InterfacesList extends \Panthera\Components\Kernel\BaseFrameworkClass
     protected function parseIWConfig()
     {
         $output = shell_exec('iwconfig');
+
+        // @debug
+        //$output = file_get_contents('/tmp/ubuntu-iwconfig');
+
         preg_match_all('/([a-z0-9]+)(.*)IEE/i', $output, $interfaces);
 
         if (!count($interfaces) || !count($interfaces[1]))
@@ -120,7 +124,14 @@ class InterfacesList extends \Panthera\Components\Kernel\BaseFrameworkClass
     protected function parseIFConfig()
     {
         $output = shell_exec('ifconfig -a');
-        preg_match_all('/([a-z0-9]+)\: flags/i', $output, $interfaces);
+
+        // @debug
+        //$output = file_get_contents('/tmp/ubuntu-ifconfig');
+
+        if (!preg_match_all('/([a-z0-9]+)\: flags/i', $output, $interfaces))
+        {
+            preg_match_all('/([a-z0-9]+)\s*Link encap/i', $output, $interfaces);
+        }
 
         $lines = explode("\n", $output);
 
