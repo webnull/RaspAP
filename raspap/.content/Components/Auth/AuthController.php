@@ -124,7 +124,9 @@ function pam_auth_py($user, $password)
     }
 
     $raspapdPam = realpath($raspapdPam);
-    $process = proc_open('sudo -n ' . $raspapdPam, $descriptorSpec, $pipes, getcwd());
+    $command    = 'sudo -n ' . $raspapdPam;
+
+    $process = proc_open($command, $descriptorSpec, $pipes, getcwd());
 
     if (is_resource($process))
     {
@@ -137,7 +139,7 @@ function pam_auth_py($user, $password)
 
         if (strpos($stderr, 'sudo:') !== false)
         {
-            throw new PantheraFrameworkException('Sudo returned error: "' . $stderr . '", this means not properly configured /etc/sudoers file for raspap user, get back to the README.md', 'SUDO_ERROR');
+            throw new PantheraFrameworkException('Sudo returned error: "' . $stderr . '", this means not properly configured /etc/sudoers file for raspap user, get back to the README.md, command: ' . $command, 'SUDO_ERROR');
         }
 
         $returnValue = proc_close($process);
