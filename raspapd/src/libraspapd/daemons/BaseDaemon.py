@@ -2,6 +2,7 @@
 import time
 import re
 import os
+import subprocess
 
 class BaseDaemon:
     app = None
@@ -68,7 +69,8 @@ class BaseDaemon:
 
         return self.app.executeCommand(command)
 
-    def find_and_kill_process(self, find_by, interface, withoutSudo = True):
+
+    def find_and_kill_process(self, find_by, interface, withoutSudo = True, grepInterface = False):
         """
         Find process using "ps" and terminate
 
@@ -78,7 +80,7 @@ class BaseDaemon:
         :return:
         """
 
-        search = self.find_process(find_by)
+        search = self.find_process(find_by, additionalGrep = interface if grepInterface else '', withoutSudo = withoutSudo)
 
         if not search:
             self.app.logging.output('Cannot find pid for "' + find_by + '" for interface "' + interface + '"', interface)
@@ -87,26 +89,32 @@ class BaseDaemon:
             self.app.logging.output('Killing "' + find_by + ' of pid=' + str(search), interface)
             self.app.executeCommand(['kill', search])
             time.sleep(1)
-            self.app.executeCommand(['kill', '-9', search])
+            self.app.executeCommand(['kill', '-9', search], logging = False)
             return True
 
 
-    def find_process(self, find_by, withoutSudo = True):
+    def find_process(self, find_by, withoutSudo = True, additionalGrep = ''):
         """
         Find process using "ps"
 
         :param find_by:
+        :param withoutSudo:
+        :param additionalGrep:
+
         :return:
         """
 
         wSudo = ''
 
         if withoutSudo:
-            wSudo = '| grep -v "sudo"'
+            wSudo = '| grep -v "sudo" '
+
+        if additionalGrep:
+            wSudo += '| grep "' + additionalGrep + '" '
 
         result, output = self.app.executeCommand([
-            'ps x | grep "' + find_by + '" ' + wSudo + ' | grep -v grep'
-        ], shell=True)
+            'ps aux | grep "' + find_by + '" ' + wSudo + '| grep -v grep'
+        ], shell = True, logging = False)
         search = re.findall('([0-9]+)(\d+)', output)
 
         if search:

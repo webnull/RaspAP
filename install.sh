@@ -39,6 +39,10 @@ sudo useradd raspap -b $PWD -r -s /bin/false
 sudo touch /etc/tor/torrc-raspap
 sudo chown raspap:raspap /etc/tor/torrc-raspap
 
+sudo touch /etc/ssh/sshd_raspap
+sudo chmod 770 /etc/ssh/sshd_raspap
+sudo chown raspap:raspap /etc/ssh/sshd_raspap
+
 sudo touch /etc/privoxy/config-raspap
 sudo chown raspap:raspap /etc/privoxy/config-raspap
 

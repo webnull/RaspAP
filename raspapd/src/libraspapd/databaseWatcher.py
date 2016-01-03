@@ -92,6 +92,7 @@ class databaseWatcher:
         :return:
         """
 
+        self.app.logging.output('================================================================', interface)
         self.app.logging.output('Received task request: ' + str(daemonslist) + ' for interface ' + interface, interface)
 
         if not interface in self.interface_daemons:
@@ -111,6 +112,8 @@ class databaseWatcher:
             if not self.daemonExists(daemon):
                 self.app.logging.output('Warning! Daemon "' + str(daemon) + '" does not exists!', interface)
                 continue
+
+            self.app.logging.output('-------------------------------------------------------------', interface)
 
             try:
                 #: BaseDaemon: Daemon object

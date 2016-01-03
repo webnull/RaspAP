@@ -17,8 +17,9 @@ class Privoxy(BaseDaemon):
 
         result, output = self.app.executeCommand('privoxy /etc/privoxy/config-raspap', shell=True)
 
+        time.sleep(1)
+
         if not self.find_process('privoxy /etc/privoxy/config-raspap'):
-            time.sleep(1)
             self.app.logging.output('Privoxy process unexpectedly quit', interface)
             return False
 

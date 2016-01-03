@@ -233,6 +233,7 @@ class HostAPDInterface extends AbstractConfigClass
 
                 case 'WPA':
                 {
+                    $this->data['wpa_psk'] = $this->generatePassphrase($passphrase);
                     $this->data['wpa'] = 1;
                     $this->data['auth_algs'] = 1;
                     break;

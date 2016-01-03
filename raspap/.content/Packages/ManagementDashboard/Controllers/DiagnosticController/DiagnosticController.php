@@ -30,6 +30,8 @@ class DiagnosticController extends AbstractAdministrationController
         'ifconfig'        => 'ifconfig -a',
         'iwconfig'        => 'iwconfig',
         'iw list'         => 'iw list',
+        'iwlist scan'     => 'iwlist scan',
+        'WICD - list networks' => 'wicd-cli --wireless -l',
         'iptables'        => 'iptables -S',
         'NAT routing'     => 'iptables -t nat -S',
         'Routing'         => 'route',

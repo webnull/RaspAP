@@ -92,6 +92,9 @@
                             <a href="dhcpConnectedDevices"><i class="fa fa-exchange fa-fw"></i> Connected devices</a>
                         </li>
                         <li>
+                            <a href="configureSSH"><i class="fa fa-plug fa-fw"></i> SSH</a>
+                        </li>
+                        <li>
                             <a href="anonymitySettings"><i class="fa fa-eye-slash fa-fw"></i> TOR</a>
                         </li>
                         <li>

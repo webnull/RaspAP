@@ -16,7 +16,7 @@ if (!function_exists('ab'))
 
 $defaultConfig = [
     'developerMode' => true,
-    'enabledPackages' => [ 'ManagementDashboard', 'BasePackage' ],
+    'enabledPackages' => [ 'ManagementDashboard', 'BasePackage', 'ShellConfigurator' ],
     'Routing' => [
         'rootPath' => '/raspap-webgui/raspap/',
     ],

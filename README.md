@@ -12,11 +12,12 @@ and where runs dependencies.
 - Setting up a monitoring mode on wireless interface and sniffing network using tcpdump
 - Setting up a TOR proxy, relay, exit node and bridge
 - Logging in using Linux system account (PAM support)
+- Bridge interfaces (cable connected clients could connect to wireless hotspot users and vice-versa)
 
 ## Not done yet
-- Bridge interfaces
 - Mac ACL
 - WPS
+- WPA2 Enterprise valid PSK
 
 ## Dependencies
 

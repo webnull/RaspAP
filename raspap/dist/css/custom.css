@@ -91,3 +91,9 @@
 .role_all {
     display: none;
 }
+
+.sshFrame {
+    border: 0px;
+    width: 100%;
+    height: 350px;
+}

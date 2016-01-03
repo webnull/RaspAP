@@ -64,4 +64,4 @@ class Dhcpd(BaseDaemon):
         """
 
         # ps aux |grep 'dhcpd -cf /etc/dhcpd/raspap/' + self.interface + ' | grep -v 'grep'
-        return self.find_and_kill_process('dhcpd -cf /etc/dhcpd/raspap/' + self.interface, self.interface)
+        return self.find_and_kill_process('dhcpd -cf /etc/dhcpd/raspap/', self.interface, grepInterface = True)

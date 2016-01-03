@@ -53,16 +53,17 @@ class NetworkStack(BaseDaemon):
             'ifconfig ' + interface + ' down'
         ]
 
-        if 'netmask' in settings and settings['netmask']:
-            commands.append('ifconfig ' + interface + ' netmask ' + settings['netmask'])
-
         if 'gateway' in settings and settings['gateway']:
             commands.append('ifconfig ' + interface + ' gateway ' + settings['gateway'])
+
+        commands.append('ifconfig ' + interface + ' ' + settings['address'])
 
         if 'broadcast' in settings and settings['broadcast']:
             commands.append('ifconfig ' + interface + ' broadcast ' + settings['broadcast'])
 
-        commands.append('ifconfig ' + interface + ' ' + settings['address'])
+        if 'netmask' in settings and settings['netmask']:
+            commands.append('ifconfig ' + interface + ' netmask ' + settings['netmask'])
+
         commands.append('ifconfig ' + interface + ' up')
 
         for command in commands:
