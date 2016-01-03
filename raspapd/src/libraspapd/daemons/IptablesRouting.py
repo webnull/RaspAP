@@ -89,6 +89,7 @@ class IptablesRouting(BaseDaemon):
 
         for rule in (self.bridgeRules + self.natRules):
             rule = rule.replace('%interface', self.interface).replace('%gw', self.gatewayInterface)
+            logging = True
 
             # remove a rule
             if "iptables " in rule:
