@@ -137,6 +137,11 @@ function pam_auth_py($user, $password)
         $stderr  = stream_get_contents($pipes[2]);
         fclose($pipes[1]);
 
+        if (strpos($stderr, 'Traceback (most recent call last)') !== false)
+        {
+            throw new PantheraFrameworkException('Python exception: ' . nl2br($stdout . $stderr), 'SUDO_ERROR');
+        }
+
         if (strpos($stderr, 'sudo:') !== false)
         {
             throw new PantheraFrameworkException('Sudo returned error: "' . $stderr . '", this means not properly configured /etc/sudoers file for raspap user, get back to the README.md, command: ' . $command, 'SUDO_ERROR');

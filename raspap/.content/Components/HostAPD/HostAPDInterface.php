@@ -286,6 +286,13 @@ class HostAPDInterface extends AbstractConfigClass
      */
     public function bridgeWithInterfaces(array $interfaces)
     {
+        if (!$interfaces)
+        {
+            $this->ipTablesRoutingData['bridge'] = null;
+            $this->clearKeys(['bridge']);
+            return $this;
+        }
+
         $list = new InterfacesList();
 
         foreach ($interfaces as $key => $interface)
