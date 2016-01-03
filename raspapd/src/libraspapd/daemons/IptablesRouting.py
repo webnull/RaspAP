@@ -20,6 +20,10 @@ class IptablesRouting(BaseDaemon):
         'iptables %A FORWARD -i %interface -o %gw -j ACCEPT'
     ]
 
+    bridgeRules = [
+
+    ]
+
 
     def getFreeBridgeName(self):
         """
