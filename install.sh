@@ -10,7 +10,7 @@ then
 # Debian/Ubuntu/Mint support
 elif [ -e /usr/bin/apt ];
 then
-    sudo apt install php php5-sqlite python2.7 isc-dhcp-server tor privoxy hostapd screen
+    sudo apt install php php5-sqlite python2.7 python-pip isc-dhcp-server tor privoxy hostapd screen
 fi
 
 # install python dependenices
