@@ -192,6 +192,7 @@ class DHCPD extends AbstractConfigClass
         fwrite($fp, $content);
         fclose($fp);
 
+        chmod('/etc/dhcpd/raspap/' . $this->interface->getName() . '.conf', 775);
         return '/etc/dhcpd/raspap/' . $this->interface->getName() . '.conf';
     }
 }
