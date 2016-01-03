@@ -124,7 +124,7 @@ function pam_auth_py($user, $password)
     }
 
     $raspapdPam = realpath($raspapdPam);
-    $command    = 'sudo -n python2 ' . $raspapdPam;
+    $command    = 'sudo -n ' . $raspapdPam;
 
     $process = proc_open($command, $descriptorSpec, $pipes, getcwd());
 
