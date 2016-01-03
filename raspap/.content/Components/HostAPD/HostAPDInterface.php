@@ -639,6 +639,8 @@ class HostAPDInterface extends AbstractConfigClass
             }
         }
 
-        return IniSupport::write_ini_file($this->data, $this->configPath, false, '');
+        $result = IniSupport::write_ini_file($this->data, $this->configPath, false, '');
+        chmod($this->configPath, 774);
+        return $result;
     }
 }
