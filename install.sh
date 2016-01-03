@@ -2,15 +2,15 @@
 
 # installing all dependencies
 # Arch Linux support
-if [ -e /usr/bin/pacman ];
+if [ -f /usr/bin/pacman ];
 then
     sudo pacman -S php php-sqlite python2 python2-pip dhclient dhcp tor privoxy hostapd screen
     sudo pecl install pam
 
 # Debian/Ubuntu/Mint support
-elif [ -e /usr/bin/apt ];
+elif [ -f /usr/bin/apt ];
 then
-    sudo apt install php php5-sqlite python2.7 python-pip isc-dhcp-server tor privoxy hostapd screen
+    sudo apt install php5-cli php5-cgi php5-sqlite python2.7 python-pip isc-dhcp-server tor privoxy hostapd screen
 fi
 
 # install python dependenices
