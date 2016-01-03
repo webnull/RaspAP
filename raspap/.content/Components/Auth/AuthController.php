@@ -118,7 +118,7 @@ function pam_auth_py($user, $password)
     $raspapdPam = is_file('/usr/bin/raspapd-pam.py') ? '/usr/bin/raspapd-pam.py' : '/usr/local/bin/raspapd-pam.py';
 
     // development version
-    if (is_file(Framework::getInstance()->appPath . '/../raspapd/raspapd-pam.py'))
+    if (is_file(Framework::getInstance()->appPath . '/../raspapd/raspapd-pam.py') && getcwd() === dirname(realpath(Framework::getInstance()->appPath . '/../')))
     {
         $raspapdPam = Framework::getInstance()->appPath . '/../raspapd/raspapd-pam.py';
     }
