@@ -115,7 +115,7 @@ function pam_auth_py($user, $password)
         2 => [ "pipe", "w" ]
     ];
 
-    $raspapdPam = '/usr/bin/raspapd-pam.py';
+    $raspapdPam = is_file('/usr/bin/raspapd-pam.py') ? '/usr/bin/raspapd-pam.py' : '/usr/local/bin/raspapd-pam.py';
 
     // development version
     if (is_file(Framework::getInstance()->appPath . '/../raspapd/raspapd-pam.py'))

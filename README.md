@@ -56,7 +56,8 @@ and to run Python daemon please run run-daemon.sh
 Next please add following lines to /etc/sudoers:
 
 ```bash
-raspap ALL=(root) NOPASSWD: /usr/bin/raspapd-pam
+raspap ALL=(root) NOPASSWD: /usr/bin/raspapd-pam.py
+raspap ALL=(root) NOPASSWD: /usr/local/bin/raspapd-pam.py
 raspap ALL=(root) NOPASSWD: /srv/http/raspap-webgui/raspapd/raspapd-pam.py
 ```
 

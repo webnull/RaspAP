@@ -1,0 +1,2 @@
+\RaspAP\Packages\ShellConfigurator\Controllers\SSHController:
+    routes: { /configureSSH: { methods: GET|POST, priority: 100 } }

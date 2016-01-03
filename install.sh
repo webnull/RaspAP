@@ -5,7 +5,6 @@
 if [ -e /usr/bin/pacman ];
 then
     sudo pacman -S php php-sqlite python2 python2-pip dhclient dhcp tor privoxy hostapd
-    sudo pecl install pam
 
 # Debian/Ubuntu/Mint support
 elif [ -e /usr/bin/apt ];
@@ -58,9 +57,22 @@ sudo chown raspap:raspap /etc/hostapd/raspap/ -R
 sudo chmod 770 /etc/hostapd/raspap/
 
 # install raspapd
-cd raspapd/
+cd ../raspapd/
 python2 setup.py install
 
-echo "RaspAP installed."
+if [ ! -f /usr/share/webapps ]
+then
+    mkdir -p /usr/share/webapps
+fi
+
+if [ -f /usr/share/webapps/raspap ]
+then
+    rm -rf /usr/share/webapps/raspap
+fi
+
+cd ../
+cp ./ /usr/share/webapps/raspap -pr
+
+echo "RaspAP installed in /usr/share/webapps/raspap"
 echo "To allow you'r user to overwrite RaspAP files type: "
 echo "gpasswd -a your-login-here raspap"
