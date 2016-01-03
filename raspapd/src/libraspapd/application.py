@@ -38,9 +38,10 @@ class application (pantheradesktop.kernel.pantheraDesktopApplication, pantherade
         # detect if launched from "daemon" directory
         if os.path.isfile('../.content/database.sqlite3'):
             self.config.setKey('databaseFile', os.path.abspath('../.content/database.sqlite3'))
+        elif os.path.isfile('/usr/share/webapps/raspap/raspap/.content/database.sqlite3'):
+            self.config.setKey('databaseFile', os.path.abspath('/usr/share/webapps/raspap/raspap/.content/database.sqlite3'))
 
-
-        if not os.path.isfile(self.config.getKey('databaseFile')):
+        if not self.config.getKey('databaseFile') or not os.path.isfile(self.config.getKey('databaseFile')):
             print("Cannot find RaspAP Web Panel database file, please configure \"databaseFile\" configuration entry with a correct path")
             sys.exit(1)
 
