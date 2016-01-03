@@ -63,19 +63,22 @@ class IptablesRouting(BaseDaemon):
         self.interface = interface
 
         # bridge support
-        if "bridge" in settings and len(settings['bridge']):
-            self.interface = self.getBridgeForTheInterface()
+        if "bridge" in settings and settings['bridge']:
+            bridge = self.getBridgeForTheInterface()
 
-            if not self.interface:
-                self.interface = self.getFreeBridgeName()
+            if bridge:
+                self.interface = bridge
 
-            self.app.logging.output('Configured to work as a bridge, creating a bridge then', interface)
-            self.app.logging.output('Changing interface to ' + str(self.interface))
+                #if not self.interface:
+                #    self.interface = self.getFreeBridgeName()
 
-            self.bridgeRules = [
-                'brctl addbr ' + self.interface,
-                'brctl addif ' + self.interface + ' ' + ' '.join(settings['bridge'])
-            ]
+                self.app.logging.output('Configured to work as a bridge, creating a bridge then', interface)
+                self.app.logging.output('Changing interface to ' + str(self.interface))
+
+                self.bridgeRules = [
+                    'brctl addbr ' + self.interface,
+                    'brctl addif ' + self.interface + ' ' + ' '.join(settings['bridge'])
+                ]
 
         results = [
             # kernel settings - ip forwarding
