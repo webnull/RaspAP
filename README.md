@@ -63,3 +63,12 @@ raspap ALL=(root) NOPASSWD: /srv/http/raspap-webgui/raspapd/raspapd-pam.py
 ```
 
 In last line change only `/srv/http/raspap-webgui/raspapd/raspapd-pam.py` to real path to file `/raspapd/raspapd-pam.py` from the project in your filesystem.
+
+## If DHCPD does not work on Ubuntu
+
+Try to disable apparmor profile for isc-dhcpd-server:
+
+```bash
+ln -s /etc/apparmor.d/usr.sbin.dhcpd /etc/apparmor.d/disable/
+apparmor_parser -R  /etc/apparmor.d/usr.sbin.dhcpd
+```
