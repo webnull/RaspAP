@@ -31,6 +31,7 @@ and where runs dependencies.
 - isc-dhcp (install using OS package manager)
 - dhclient (install using OS package manager)
 - python-pam (install via PIP for Python 2.7 - `sudo pip2 install python-pam`)
+- GNU Screen (install via OS package manager: screen)
 
 ## Optional dependencies
 - tor
