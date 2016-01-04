@@ -75,6 +75,7 @@ cp ./ /usr/share/webapps/raspap -pr
 
 # deploy database
 cd /usr/share/webapps/raspap/raspap
+sudo -u raspap ./vendor/pantheraframework/panthera/lib/Binaries/deploy Build/Database/ConfigurePhinx
 sudo -u raspap ./vendor/pantheraframework/panthera/lib/Binaries/deploy Build/Database/Migrate
 sudo -u raspap ./vendor/pantheraframework/panthera/lib/Binaries/deploy Build/Routing/Cache
 
