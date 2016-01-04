@@ -4,6 +4,7 @@ raspapd/build
 raspap/.content/cache/applicationIndex.php
 raspap/.content/cache/applicationCache.sqlite3
 raspap/.content/phpunit-testing.sqlite3
+raspap/.content/database.sqlite3
 raspap/vendor
 raspap/.content/app.php
 raspap/.content/cache/RainTPL4/*
