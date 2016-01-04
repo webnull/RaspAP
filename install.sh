@@ -76,3 +76,14 @@ cp ./ /usr/share/webapps/raspap -pr
 echo "RaspAP installed in /usr/share/webapps/raspap"
 echo "To allow you'r user to overwrite RaspAP files type: "
 echo "gpasswd -a your-login-here raspap"
+
+if [ ! -f /etc/RaspAP/RaspAP.conf ]
+then
+    mkdir /etc/raspap
+    read -p "Would you like to add user $SUDO_USER to list of allowed to login to RaspAP web panel?" yn
+    case $yn in
+        [Yy]* ) echo "{\"SudoUsers\": [\"$SUDO_USER\", \"root\"]}" > /etc/RaspAP/RaspAP.conf; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+fi

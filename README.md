@@ -41,11 +41,21 @@ and where runs dependencies.
 
 1. How to authorize my login to use web panel?
 
-Navigate to .content/, and edit app.php file, nano .content/app.php
-Append:
+Add your login (same as to operating system) to /etc/RaspAP/RaspAP.conf in "SudoUsers" array.
 
-```php
-'SudoUsers' => [ 'your-login-here', 'root', 'your-other-login-here' ]
+Example:
+```json
+{
+    "SudoUsers": [ "root", "my-login", "damien", "ann", "zdzichu-dobry-admin" ]
+}
+```
+
+2. If DHCPD does not work on Ubuntu
+Try to disable apparmor profile for isc-dhcpd-server:
+
+```bash
+ln -s /etc/apparmor.d/usr.sbin.dhcpd /etc/apparmor.d/disable/
+apparmor_parser -R  /etc/apparmor.d/usr.sbin.dhcpd
 ```
 
 ## Installation from sources
@@ -63,12 +73,3 @@ raspap ALL=(root) NOPASSWD: /srv/http/raspap-webgui/raspapd/raspapd-pam.py
 ```
 
 In last line change only `/srv/http/raspap-webgui/raspapd/raspapd-pam.py` to real path to file `/raspapd/raspapd-pam.py` from the project in your filesystem.
-
-## If DHCPD does not work on Ubuntu
-
-Try to disable apparmor profile for isc-dhcpd-server:
-
-```bash
-ln -s /etc/apparmor.d/usr.sbin.dhcpd /etc/apparmor.d/disable/
-apparmor_parser -R  /etc/apparmor.d/usr.sbin.dhcpd
-```

@@ -70,6 +70,9 @@ class AuthController
      */
     public function checkAccess($user, $password)
     {
+        $cache = Framework::getInstance()->cache;
+        $config = Framework::getInstance()->config;
+
         // user does not exists - this prevents cache from overloading (DoS attacks)
         if (!$this->userExists($user))
         {
@@ -83,16 +86,16 @@ class AuthController
             return false;
         }
 
-        $retries = (int)Framework::getInstance()->cache->get('login.retry.' . $user);
+        $retries = (int)$cache->get('login.retry.' . $user);
 
-        if ($retries >= Framework::getInstance()->config->get('LoginRetries', 10))
+        if ($retries >= $config->get('LoginRetries', 10))
         {
            throw new PantheraFrameworkException('Login retries exhausted', 'LOGIN_RETRIES_TOO_MANY');
         }
 
-        Framework::getInstance()->cache->set('login.retry.' . $user, $retries + 1, Framework::getInstance()->config->get('LoginRetriesBlockTime', 300));
+        $cache->set('login.retry.' . $user, $retries + 1, $config->get('LoginRetriesBlockTime', 300));
 
-        if (!in_array($user, Framework::getInstance()->config->get('SudoUsers', ['root', 'raspap-admin'])))
+        if (!in_array($user, $config->get('SudoUsers', ['root', 'raspap-admin'])))
         {
             throw new PantheraFrameworkException('User is not in "SudoUsers" list, please add user to app.php - key: "SudoUsers", see manual on github.com/webnull/raspap-webgui', 'AUTH_NO_USER_IN_SUDOERS');
         }

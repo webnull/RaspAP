@@ -49,7 +49,7 @@ $defaultConfig = [
         'repositoryKey' => '',
     ],
 
-    'SudoUsers' => [ 'root', 'damian' ],
+    'SudoUsers' => [ 'root' ],
     'LoginRetries' => 100, // testing
 ];
 
