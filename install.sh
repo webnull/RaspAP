@@ -1,60 +1,64 @@
 #!/bin/bash
 
-# installing all dependencies
-# Arch Linux support
-if [ -f /usr/bin/pacman ];
+if [ "$1" == "--help" ] || [ "$1" == "-h" ]
 then
-    sudo pacman -S php php-sqlite python2 python2-pip dhclient dhcp tor privoxy hostapd screen
-
-# Debian/Ubuntu/Mint support
-elif [ -f /usr/bin/apt ];
-then
-    sudo apt install php5-cli php5-cgi php5-sqlite python2.7 python-pip isc-dhcp-server tor privoxy hostapd screen
+    echo "install.sh [--developer-deploy, -d] [--help, -h]"
+    exit
 fi
-
-# install python dependenices
-sudo pip2 install python-pam
 
 cd raspap
 
-# install composer
-echo "~> Installing composer"
-php -r "readfile('https://getcomposer.org/installer');" | php
-php composer.phar install
+if [ "$1" != "--developer-deploy" ] && [ "$1" != "-d" ]
+then
+    # installing all dependencies
+    # Arch Linux support
+    if [ -f /usr/bin/pacman ];
+    then
+        sudo pacman -S php php-sqlite python2 aircrack-ng extra/python2-pyqt4 python2-pip dhclient dhcp tor privoxy hostapd screen
 
-#pwd=`pwd`
-# update pf2 as there is a temporary problem on packagist
-#cd ../raspap/vendor/pantheraframework/panthera
-#git pull
-#cd $pwd
+    # Debian/Ubuntu/Mint support
+    elif [ -f /usr/bin/apt ];
+    then
+        sudo apt install php5-cli php5-cgi php5-sqlite python2.7 aircrack-ng python-qt4 python-pip isc-dhcp-server tor privoxy hostapd screen
+    fi
 
-# clean up composer
-echo "~> Cleaning up composer"
-rm composer.phar
+    # install python dependenices
+    sudo pip2 install python-pam
+    sudo pip2 install pantheradesktop
 
-# create a system user and give him access
-sudo useradd raspap -b $PWD -r -s /bin/false
+    # install composer
+    echo "~> Installing composer"
+    php -r "readfile('https://getcomposer.org/installer');" | php
+    php composer.phar install
 
-sudo touch /etc/tor/torrc-raspap
-sudo chown raspap:raspap /etc/tor/torrc-raspap
+    # clean up composer
+    echo "~> Cleaning up composer"
+    rm composer.phar
 
-sudo touch /etc/ssh/sshd_raspap
-sudo chmod 770 /etc/ssh/sshd_raspap
-sudo chown raspap:raspap /etc/ssh/sshd_raspap
+    # create a system user and give him access
+    sudo useradd raspap -b $PWD -r -s /bin/false
 
-sudo touch /etc/privoxy/config-raspap
-sudo chown raspap:raspap /etc/privoxy/config-raspap
+    sudo touch /etc/tor/torrc-raspap
+    sudo chown raspap:raspap /etc/tor/torrc-raspap
 
-sudo chown raspap:raspap $PWD/../raspap -R
-sudo chmod 770 $PWD/../raspap
+    sudo touch /etc/ssh/sshd_raspap
+    sudo chmod 770 /etc/ssh/sshd_raspap
+    sudo chown raspap:raspap /etc/ssh/sshd_raspap
 
-sudo mkdir -p /etc/dhcpd/raspap/
-sudo chown raspap:raspap /etc/dhcpd/raspap/ -R
-sudo chmod 770 /etc/dhcpd/raspap/
+    sudo touch /etc/privoxy/config-raspap
+    sudo chown raspap:raspap /etc/privoxy/config-raspap
 
-sudo mkdir -p /etc/hostapd/raspap/
-sudo chown raspap:raspap /etc/hostapd/raspap/ -R
-sudo chmod 770 /etc/hostapd/raspap/
+    sudo chown raspap:raspap $PWD/../raspap -R
+    sudo chmod 770 $PWD/../raspap
+
+    sudo mkdir -p /etc/dhcpd/raspap/
+    sudo chown raspap:raspap /etc/dhcpd/raspap/ -R
+    sudo chmod 770 /etc/dhcpd/raspap/
+
+    sudo mkdir -p /etc/hostapd/raspap/
+    sudo chown raspap:raspap /etc/hostapd/raspap/ -R
+    sudo chmod 770 /etc/hostapd/raspap/
+fi
 
 # install raspapd
 cd ../raspapd/
@@ -73,7 +77,7 @@ fi
 cd ../
 cp ./ /usr/share/webapps/raspap -pr
 
-# deploy database
+# deploy database in a destination installation
 cd /usr/share/webapps/raspap/raspap
 sudo -u raspap ./vendor/pantheraframework/panthera/lib/Binaries/deploy Build/Database/ConfigurePhinx
 sudo -u raspap ./vendor/pantheraframework/panthera/lib/Binaries/deploy Build/Database/Migrate
@@ -85,7 +89,7 @@ echo "gpasswd -a your-login-here raspap"
 
 if [ ! -f /etc/RaspAP/RaspAP.conf ]
 then
-    mkdir /etc/raspap
+    mkdir /etc/RaspAP
     read -p "Would you like to add user $SUDO_USER to list of allowed to login to RaspAP web panel?" yn
     case $yn in
         [Yy]* ) echo "{\"SudoUsers\": [\"$SUDO_USER\", \"root\"]}" > /etc/RaspAP/RaspAP.conf; break;;
@@ -93,3 +97,4 @@ then
         * ) echo "Please answer yes or no.";;
     esac
 fi
+

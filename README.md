@@ -26,7 +26,7 @@ and where runs dependencies.
 - PHP >=5.6 (install using OS package manager)
 - php-sqlite (install using OS package manager)
 - pantheraframework2 (will install automaticaly with composer)
-- panthera-desktop (https://github.com/Panthera-Framework/Panthera-Desktop)
+- panthera-desktop (using pip - pip2 install pantheradesktop)
 - raintpl4 (will install automaticaly with composer)
 - isc-dhcp (install using OS package manager)
 - dhclient (install using OS package manager)
@@ -57,6 +57,20 @@ Try to disable apparmor profile for isc-dhcpd-server:
 ln -s /etc/apparmor.d/usr.sbin.dhcpd /etc/apparmor.d/disable/
 apparmor_parser -R  /etc/apparmor.d/usr.sbin.dhcpd
 ```
+
+3. Hostapd returns that it cannot change interface mode
+
+```bash
+nl80211: Could not configure driver mode
+```
+
+Please install `airmon-ng` (from `aircrack-ng` package) and use it to list all processes that are **blocking your network interface** and kill those processes at first.
+
+```bash
+airmon-ng check kill
+```
+
+Also `raspapd` daemon should detect installed `airmon-ng` and free interface automatically.
 
 ## Installation from sources
 At first please install panthera-desktop from here: https://github.com/Panthera-Framework/Panthera-Desktop
