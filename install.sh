@@ -1,14 +1,24 @@
 #!/bin/bash
+_help=0
+_developerDeploy=0
+_erasePreviousDatabase=0
 
-if [ "$1" == "--help" ] || [ "$1" == "-h" ]
+for var in "$@"
+do
+    if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then _help=1; fi;
+    if [ "$1" == "--developer-deploy" ] || [ "$1" == "-d" ]; then _developerDeploy=1; fi;
+    if [ "$1" == "--erase-previous-database" ] || [ "$1" == "-e" ]; then _erasePreviousDatabase=1; fi;
+done
+
+if [ ${_help} == 1 ]
 then
-    echo "install.sh [--developer-deploy, -d] [--help, -h]"
+    echo "install.sh [--developer-deploy, -d] [--help, -h] [--erase-previous-database -e]"
     exit
 fi
 
 cd raspap
 
-if [ "$1" != "--developer-deploy" ] && [ "$1" != "-d" ]
+if [ ${_developerDeploy} == 1 ]
 then
     # installing all dependencies
     # Arch Linux support
@@ -69,13 +79,28 @@ then
     mkdir -p /usr/share/webapps
 fi
 
-if [ -f /usr/share/webapps/raspap ]
+if [ -d /usr/share/webapps/raspap ]
 then
+    if [ ${_erasePreviousDatabase} == "0" ]
+    then
+        echo "Creating backup of previous database"
+        cp /usr/share/webapps/raspap/raspap/.content/database.sqlite3 /tmp/database.backup.sqlite3
+    fi
+
+    echo "Removing previous instalation"
     rm -rf /usr/share/webapps/raspap
 fi
 
+echo "Copying files..."
 cd ../
 cp ./ /usr/share/webapps/raspap -pr
+
+# restoring database from backup
+if [ ${_erasePreviousDatabase} == 0 ] && [ -f /tmp/database.backup.sqlite3 ]
+then
+    echo "Restoring database"
+    cp /tmp/database.backup.sqlite3 /usr/share/webapps/raspap/raspap/.content/database.sqlite3
+fi
 
 # deploy database in a destination installation
 cd /usr/share/webapps/raspap/raspap
@@ -87,6 +112,11 @@ echo "RaspAP installed in /usr/share/webapps/raspap"
 echo "To allow you'r user to overwrite RaspAP files type: "
 echo "gpasswd -a your-login-here raspap"
 
+echo ""
+echo "To run application daemon and webpanel please do:"
+echo "sudo /usr/share/webapps/raspap/run-webpanel.sh"
+echo "sudo /usr/share/webapps/raspap/run-daemon.sh"
+
 if [ ! -f /etc/RaspAP/RaspAP.conf ]
 then
     mkdir /etc/RaspAP
@@ -97,4 +127,3 @@ then
         * ) echo "Please answer yes or no.";;
     esac
 fi
-
