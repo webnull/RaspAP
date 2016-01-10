@@ -1,6 +1,6 @@
 #-*- encoding: utf-8 -*-
 import subprocess
-import sys
+import socket
 import time
 import pantheradesktop.tools
 from BaseDaemon import BaseDaemon
@@ -14,6 +14,14 @@ class NetworkStack(BaseDaemon):
     worker = None
     process = None
 
+    # dhclient monitoring
+    dhThread = None
+    dhWorker = None
+    connectivityCheckEnabled  = True
+    connectivityCheckInterval = 45
+    connectivityCheckIP       = '8.8.8.8'
+    timeout  = 60
+
     def start(self, interface, settings):
         """
         Constructor
@@ -23,8 +31,10 @@ class NetworkStack(BaseDaemon):
         :return: networkStack
         """
 
+        self.interface = interface
+
         if "client_dhcp" in settings:
-            return self.run_dhcp_client(interface, settings)
+            return self.run_dhcp_client(settings)
 
         elif "client_static" in settings:
             return self.run_static_client(interface, settings)
@@ -73,24 +83,91 @@ class NetworkStack(BaseDaemon):
         return True
 
 
-    def run_dhcp_client(self, interface, settings):
+    def run_dhcp_client(self, settings):
         """
-        Run "dhclient" on interface (ISC DHCP Client)
+        Launch DHCP client and monitor interface for internet connection
+        Returns status of first try
 
         :param interface:
         :param settings:
         :return:
         """
 
-        status, output = self.app.executeCommand(['dhclient', interface])
+        # set ip for monitoring, defaults to disabled connectivity check
+        if 'monitor_ip' in settings:
+            try:
+                socket.inet_aton(settings['monitor_ip'])
+                self.connectivityCheckIP = settings['monitor_ip']
+            except socket.error:
+                self.connectivityCheckEnabled = False
+
+
+        # set monitoring interval (defaults to 45 seconds)
+        if 'monitor_interval' in settings:
+            try:
+                self.connectivityCheckInterval = int(settings['monitor_interval'])
+            except Exception:
+                pass
+
+
+        # allow to set custom dhcp timeout (defaults to 60 seconds)
+        if 'dhcp_timeout' in settings:
+            try:
+                self.timeout = settings['dhcp_timeout']
+            except ValueError:
+                pass
+
+
+        self.dhThread, self.dhWorker = pantheradesktop.tools.createThread(self.monitor_dhcp_connection)
+        return self.dhcp_client()
+
+
+
+    def monitor_dhcp_connection(self, thread = ''):
+        """
+        Monitor dhcp connection for given ip address, if it will fail, then try to reconnect
+
+        :param thread:
+        :return:
+        """
+
+        while True:
+            time.sleep(self.connectivityCheckInterval)
+            self.app.logging.output('Checking connectivity for interface ' + self.interface, self.interface)
+            status, output = self.app.executeCommand([ 'ping', '-c', '1', self.connectivityCheckIP, '-W', '5' ], logging = False)
+
+            if not status:
+                self.app.logging.output('Restarting DHCP client on interface ' + self.interface, self.interface)
+                self.dhcp_client()
+
+
+
+    def dhcp_client(self):
+        """
+        Run "dhclient" on interface (ISC DHCP Client)
+        :param interface:
+        :return:
+        """
+
+        command = [ 'dhclient', self.interface, '-e', 'timeout=' + str(self.timeout) ]
+
+        # check for commands availability
+        status, output = self.app.executeCommand([ 'whereis', 'dhclient' ])
+
+        if not status:
+            command = [ 'dhcpcd', self.interface, '-t', str(self.timeout) ]
+
+        status, output = self.app.executeCommand(command)
 
         if not status:
             if not output:
-                output = 'dhclient process finished with wrong code, no ip address assigned'
+                output = str(command) + ' process finished with wrong code, no ip address assigned'
 
             self.lastErrorMessage = output
 
         return status
+
+
 
 
     def configure_monitoring(self, interface, settings):
@@ -121,13 +198,13 @@ class NetworkStack(BaseDaemon):
         # setup tcpdump
         self.tcpDumpSettings = settings
         self.interface = interface
-        self.thread, self.worker = pantheradesktop.tools.createThread(self.runTcpDump)
+        self.thread, self.worker = pantheradesktop.tools.createThread(self.run_tcpdump)
 
         time.sleep(5) # wait for tcpdump to start, 5 seconds should be enough even on slower machines
         return (self.lastErrorMessage == '')
 
 
-    def runTcpDump(self, thread):
+    def run_tcpdump(self, thread):
         """
         Run tcpdump in background
 
