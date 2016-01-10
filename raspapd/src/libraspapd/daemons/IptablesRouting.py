@@ -1,6 +1,6 @@
 #-*- encoding: utf-8 -*-
 import re
-import subprocess
+import os
 from BaseDaemon import BaseDaemon
 
 class IptablesRouting(BaseDaemon):
@@ -24,22 +24,48 @@ class IptablesRouting(BaseDaemon):
 
     ]
 
-
-    def getFreeBridgeName(self):
+    def detect_gateway(self):
         """
-        Checks if bridge exists, if yes then increments a number until name still exists on the list of interfaces
+        Detect which interface provides access to internet
+
         :return:
         """
 
-        i = 0
+        result, output = self.app.executeCommand('route | grep "default"', shell=True)
+        route = re.findall('.*(\s+?)([a-z0-9]+)', output)
 
-        while True:
-            status, output = self.app.executeCommand('ifconfig br' + str(i), shell=True)
+        if not route or not len(route) or len(route[0]) < 1:
+            self.app.logging.output('Cannot find default route from output of "route | grep \'default\'"', self.interface)
+            self.gatewayInterface = 'lo'
+        else:
+            self.app.logging.output('Found default gateway interface - ' + str(route[0][1]), self.interface)
+            self.gatewayInterface = route[0][1]
 
-            if not status:
-                return 'br' + str(i)
+        if not os.path.isfile('/sys/class/net/' + self.gatewayInterface):
+            self.app.logging.output('Bug: Invalid gateway interface detected! gatewayInterface=' + self.gatewayInterface, self.interface)
 
-            i = i + 1
+
+    def setup_bridge(self, settings):
+        """
+        Set up a bridge connection
+
+        :param settings:
+        :return:
+        """
+
+        if "bridge" in settings and settings['bridge']:
+            bridge = self.getBridgeForTheInterface()
+
+            if bridge:
+                self.interface = bridge
+
+                self.app.logging.output('Configured to work as a bridge, creating a bridge then', interface)
+                self.app.logging.output('Changing interface to ' + str(self.interface))
+
+                self.bridgeRules = [
+                    'brctl addbr ' + self.interface,
+                    'brctl addif ' + self.interface + ' ' + ' '.join(settings['bridge'])
+                ]
 
 
     def start(self, interface, settings):
@@ -51,34 +77,9 @@ class IptablesRouting(BaseDaemon):
         :return:
         """
 
-        result, output = self.app.executeCommand('route | grep "default"', shell=True)
-        route = re.findall('.*(\s+?)([a-z0-9]+)', output)
-
-        if not route or not len(route) or len(route[0]) < 1:
-            self.app.logging.output('Cannot find default route from output of "route | grep \'default\'"', interface)
-            self.gatewayInterface = 'lo'
-        else:
-            self.gatewayInterface = route[0][1]
-
         self.interface = interface
-
-        # bridge support
-        if "bridge" in settings and settings['bridge']:
-            bridge = self.getBridgeForTheInterface()
-
-            if bridge:
-                self.interface = bridge
-
-                #if not self.interface:
-                #    self.interface = self.getFreeBridgeName()
-
-                self.app.logging.output('Configured to work as a bridge, creating a bridge then', interface)
-                self.app.logging.output('Changing interface to ' + str(self.interface))
-
-                self.bridgeRules = [
-                    'brctl addbr ' + self.interface,
-                    'brctl addif ' + self.interface + ' ' + ' '.join(settings['bridge'])
-                ]
+        self.detect_gateway()
+        self.setup_bridge(settings)
 
         results = [
             # kernel settings - ip forwarding
