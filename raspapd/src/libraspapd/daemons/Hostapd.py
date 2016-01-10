@@ -13,8 +13,9 @@ class Hostapd(BaseDaemon):
     """
 
     process = None
-    thread = None
-    worker = None
+    thread  = None
+    worker  = None
+    retry   = 0
 
     def start(self, interface, settings):
         """
@@ -32,13 +33,15 @@ class Hostapd(BaseDaemon):
             pass
 
         self.interface = interface
-        self.thread, self.worker = pantheradesktop.tools.createThread(self.startDaemonThread)
+        self.thread, self.worker = pantheradesktop.tools.createThread(self.start_daemon_thread)
 
         time.sleep(5)
         return (self.lastErrorMessage == '')
 
 
-    def startDaemonThread(self, thread):
+
+
+    def start_daemon_thread(self, thread):
         """
         Starts daemon in a thread
         :return:
@@ -61,6 +64,13 @@ class Hostapd(BaseDaemon):
             if self.process.returncode != None:
                 self.app.logging.output('hostapd finished with code: ' + str(self.process.returncode) + ', and output: ' + str(stdOut) + str(stdErr), self.interface)
 
+                # retry when interface could be possibly blocked
+                if self.retry == 0 and "Could not configure driver mode" in str(stdErr + stdOut) and self.try_to_free_wireless_interface():
+                    self.app.logging.output('Trying again with hostapd', self.interface)
+                    self.retry = 1
+                    return self.start_daemon_thread(thread)
+
+
                 if self.process.returncode != 0:
                     self.lastErrorMessage = str(stdOut + stdErr)
 
@@ -68,6 +78,25 @@ class Hostapd(BaseDaemon):
                 return True
 
             time.sleep(0.5)
+
+
+
+    def try_to_free_wireless_interface(self):
+        """
+        Try to kill all processes that are blocking wireless interface from begin set up as access point
+        Uses airmon-ng
+
+        :return:
+        """
+
+        self.app.logging.output('Trying to kill processes that uses wireless interfaces using airmon-ng', self.interface)
+        stat, out = self.app.executeCommand(['whereis', 'airmon-ng'], logging = False)
+
+        if stat:
+            self.app.executeCommand(['airmon-ng', 'check', 'kill'])
+
+        return stat
+
 
 
     def finish(self):
