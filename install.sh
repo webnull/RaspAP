@@ -2,23 +2,25 @@
 _help=0
 _developerDeploy=0
 _erasePreviousDatabase=0
+_runAfterDeploy=0
 
 for var in "$@"
 do
-    if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then _help=1; fi;
-    if [ "$1" == "--developer-deploy" ] || [ "$1" == "-d" ]; then _developerDeploy=1; fi;
-    if [ "$1" == "--erase-previous-database" ] || [ "$1" == "-e" ]; then _erasePreviousDatabase=1; fi;
+    if [ ${var} == "--help" ] || [ ${var} == "-h" ]; then _help=1; fi;
+    if [ ${var} == "--developer-deploy" ] || [ ${var} == "-d" ]; then _developerDeploy=1; fi;
+    if [ ${var} == "--erase-previous-database" ] || [ ${var} == "-e" ]; then _erasePreviousDatabase=1; fi;
+    if [ ${var} == "--run" ] || [ ${var} == "-r" ]; then _runAfterDeploy=1; fi;
 done
 
 if [ ${_help} == 1 ]
 then
-    echo "install.sh [--developer-deploy, -d] [--help, -h] [--erase-previous-database -e]"
+    echo "install.sh [--developer-deploy, -d] [--help, -h] [--erase-previous-database -e] [--run -r]"
     exit
 fi
 
 cd raspap
 
-if [ ${_developerDeploy} == 1 ]
+if [ ${_developerDeploy} == 0 ]
 then
     # installing all dependencies
     # Arch Linux support
@@ -116,6 +118,7 @@ echo ""
 echo "To run application daemon and webpanel please do:"
 echo "sudo /usr/share/webapps/raspap/run-webpanel.sh"
 echo "sudo /usr/share/webapps/raspap/run-daemon.sh"
+echo ""
 
 if [ ! -f /etc/RaspAP/RaspAP.conf ]
 then
@@ -126,4 +129,18 @@ then
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
+fi
+
+if [ ${_runAfterDeploy} == "1" ]
+then
+    killall run-webpanel.sh
+    killall run-daemon.sh
+
+    screen -dmS raspap /usr/share/webapps/raspap/run-webpanel.sh
+    screen -dmS raspapd /usr/share/webapps/raspap/run-daemon.sh
+
+    echo ""
+    echo "Raspap and Raspapd started, type \"screen -rD raspap\" or \"screen -rD raspapd\" to invoke sessions"
+    echo "Use ctrl+a+d to hide them to background again"
+    echo ""
 fi
