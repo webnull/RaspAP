@@ -187,7 +187,7 @@ class databaseWatcher:
 
 
     def watchLoop(self, thread):
-        timeout = 5
+        timeout = 10
 
         while True:
             self.performCheck()
