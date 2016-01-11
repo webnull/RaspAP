@@ -3,6 +3,7 @@ _help=0
 _developerDeploy=0
 _erasePreviousDatabase=0
 _runAfterDeploy=0
+_keepCache=0
 
 for var in "$@"
 do
@@ -10,11 +11,12 @@ do
     if [ ${var} == "--developer-deploy" ] || [ ${var} == "-d" ]; then _developerDeploy=1; fi;
     if [ ${var} == "--erase-previous-database" ] || [ ${var} == "-e" ]; then _erasePreviousDatabase=1; fi;
     if [ ${var} == "--run" ] || [ ${var} == "-r" ]; then _runAfterDeploy=1; fi;
+    if [ ${var} == "--keep-cache" ] || [ ${var} == "-c" ]; then _keepCache=1; fi;
 done
 
 if [ ${_help} == 1 ]
 then
-    echo "install.sh [--developer-deploy, -d] [--help, -h] [--erase-previous-database -e] [--run -r]"
+    echo "install.sh [--developer-deploy, -d] [--help, -h] [--erase-previous-database -e] [--run -r] [--keep-cache -c]"
     exit
 fi
 
@@ -89,6 +91,18 @@ then
         cp /usr/share/webapps/raspap/raspap/.content/database.sqlite3 /tmp/database.backup.sqlite3
     fi
 
+    if [ ${_keepCache} == "1" ]
+    then
+        echo "Creating backup of cache"
+
+        if [ -d /tmp/.raspap-cache ]
+        then
+            rm -rf /tmp/.raspap-cache
+        fi
+
+        cp /usr/share/webapps/raspap/raspap/.content/cache /tmp/.raspap-cache -pR
+    fi
+
     echo "Removing previous instalation"
     rm -rf /usr/share/webapps/raspap
 fi
@@ -96,6 +110,21 @@ fi
 echo "Copying files..."
 cd ../
 cp ./ /usr/share/webapps/raspap -pr
+
+if [ ${_keepCache} == "1" ] && [ -d /tmp/.raspap-cache ]
+then
+    echo "Restoring cache from backup"
+    rm -rf /usr/share/webapps/raspap/raspap/.content/cache
+    cp /tmp/.raspap-cache /usr/share/webapps/raspap/raspap/.content/cache -pR
+fi
+
+echo "Setting permisions for session saving..."
+if [ ! -d /usr/share/webapps/raspap/raspap/.content/cache/sessions ]
+then
+    mkdir /usr/share/webapps/raspap/raspap/.content/cache/sessions -p
+fi
+chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/cache/sessions -R
+
 
 # restoring database from backup
 if [ ${_erasePreviousDatabase} == 0 ] && [ -f /tmp/database.backup.sqlite3 ]
