@@ -4,7 +4,7 @@
 
 {if isset($redirect) && $redirect}
     <script>
-        //window.location.href = 'managePasswords,' + currentInterfaceName;
+        window.location.href = 'managePasswords,' + currentInterfaceName;
     </script>
 {/if}
 
