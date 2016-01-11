@@ -46,14 +46,20 @@ class InterfaceDaemons
      * @param string $daemonName
      * @param array|string|null|int $data
      * @param bool $force Force overwrite previous data
+     * @param bool $merge Allow to merge arrays when using $force = true
      *
      * @return $this
      */
-    public function put($daemonName, $data = null, $force = false)
+    public function put($daemonName, $data = null, $force = false, $merge = false)
     {
         if (isset($this->daemons[$daemonName]) && $force === false)
         {
             return $this;
+        }
+
+        if ($force && $merge)
+        {
+            $data = array_merge($this->daemons[$daemonName], $data);
         }
 
         $this->daemons[$daemonName] = $data;

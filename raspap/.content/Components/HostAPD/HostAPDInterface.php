@@ -260,7 +260,7 @@ class HostAPDInterface extends AbstractConfigClass
     /**
      * @param string $password
      */
-    protected function generatePassphrase($password)
+    public function generatePassphrase($password)
     {
         if (!isset($this->data['ssid']))
         {
@@ -627,7 +627,7 @@ class HostAPDInterface extends AbstractConfigClass
 
         $this->interface->getDaemons()->put('dhcpd');
         $this->interface->getDaemons()->put('iptablesRouting', $this->ipTablesRoutingData);
-        $this->interface->getDaemons()->put('hostapd', $this->hostapdData);
+        $this->interface->getDaemons()->put('hostapd', $this->hostapdData, true, true);
         $this->interface->setRole('access_point');
         $this->interface->save();
 

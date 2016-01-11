@@ -81,6 +81,10 @@ class ManagePasswordsController extends AbstractAdministrationController
         {
             $response->assign('statusMessage', $exception->getMessage());
         }
+        catch (\UnexpectedValueException $exception)
+        {
+            $response->assign('statusMessage', $exception->getMessage());
+        }
 
         return $response;
     }

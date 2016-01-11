@@ -4,7 +4,7 @@ namespace RaspAP\Components\HostAPD;
 use Panthera\Classes\BaseExceptions\FileException;
 use Panthera\Classes\BaseExceptions\InvalidArgumentException;
 use RaspAP\Components\MacAddress\MacAddress;
-use RaspAP\Components\NetworkInterface\AbstractInterface;
+use RaspAP\Components\NetworkInterface\WirelessInterface;
 
 /**
  * RaspAP
@@ -24,18 +24,27 @@ class PSKCollection
     /** @var array $data */
     protected $data = [];
 
+    /** @var WirelessInterface $interface */
+    protected $interface;
+
+    /** @var HostAPDInterface $hostapd */
+    protected $hostapd;
+
     /**
      * @throws FileException
      * @throws InvalidArgumentException
-     * @param AbstractInterface $interface
+     * @param WirelessInterface $interface
      */
-    public function __construct(AbstractInterface $interface)
+    public function __construct(WirelessInterface $interface)
     {
-        if (!$interface instanceof AbstractInterface)
+        if (!$interface instanceof WirelessInterface)
         {
             throw new InvalidArgumentException('$interface is not a valid interface', 'PSK_COLLECTION_NO_VALID_INTERFACE');
         }
 
+        $this->hostapd = $interface->getDaemons()->get('hostapd');
+        $this->interface  = $interface;
+        $this->pskCache   = isset($this->hostapd['psk_cache']) ? $this->hostapd['psk_cache'] : [];
         $this->configPath = '/etc/hostapd/raspap/' . $interface->getName() . '.psk';
         $this->loadConfiguration();
     }
@@ -77,8 +86,9 @@ class PSKCollection
             ]);
 
             $this->data[$part[0]] = [
-                'password' => $part[1],
-                'name' => $mac instanceof MacAddress ? $mac->getTitle() : '',
+                'password' => isset($this->pskCache[$part[1]]) ? $this->pskCache[$part[1]] : '',
+                'name'     => $mac instanceof MacAddress ? $mac->getTitle() : '',
+                'psk'      => $part[1],
             ];
         }
 
@@ -100,9 +110,15 @@ class PSKCollection
             throw new InvalidArgumentException('Invalid MAC Address specified', 'PSK_INVALID_MAC_ADDRESS');
         }
 
-        $this->data[$macAddress] = [
+        // clean up first
+        $this->removeUser($macAddress);
+
+        $psk                       = $this->interface->getHostAPD()->generatePassphrase($password);
+        $this->pskCache[$psk]      = $password;
+        $this->data[$macAddress]   = [
             'password' => $password,
-            'name' => $name,
+            'name'     => $name,
+            'psk'      => $psk,
         ];
         return $this;
     }
@@ -115,6 +131,12 @@ class PSKCollection
     {
         if (isset($this->data[$macAddress]))
         {
+            // clean up psk from cache, to do not create a mess after changing password many times
+            if (isset($this->pskCache[$this->data[$macAddress]['psk']]))
+            {
+                unset($this->pskCache[$this->data[$macAddress]['psk']]);
+            }
+
             unset($this->data[$macAddress]);
         }
 
@@ -140,7 +162,7 @@ class PSKCollection
 
         foreach ($this->data as $mac => $passphrase)
         {
-            $output .= $mac . " " . $passphrase['password'] . "\n";
+            $output .= $mac . " " . $passphrase['psk'] . "\n";
 
             $object = MacAddress::fetchOne([
                 '|=|mac' => $mac,
@@ -159,6 +181,11 @@ class PSKCollection
         $fp = fopen($this->configPath, 'w');
         fwrite($fp, $output);
         fclose($fp);
+
+        // save psk cache
+        $this->hostapd['psk_cache'] = $this->pskCache;
+        $this->interface->getDaemons()->put('hostapd', $this->hostapd, true, true);
+        $this->interface->save();
 
         return $this;
     }
