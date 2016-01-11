@@ -1,4 +1,10 @@
 #!/bin/bash
+if [ `whoami` != "root" ]
+then
+    eval "sudo ${BASH_SOURCE} $@"
+    exit
+fi
+
 _help=0
 _developerDeploy=0
 _erasePreviousDatabase=0
