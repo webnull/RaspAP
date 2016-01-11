@@ -113,4 +113,11 @@ class Hostapd(BaseDaemon):
             except Exception as e:
                 self.app.logging.output('Process hostapd already killed', self.interface)
 
-            return self.find_and_kill_process('hostapd /etc/hostapd/raspap/' + self.interface, self.interface)
+            result = self.find_and_kill_process('hostapd /etc/hostapd/raspap/' + self.interface, self.interface)
+
+            if result:
+                self.app.executeCommand(['iwconfig', self.interface, 'mode', 'managed'])
+
+            return result
+
+        return True
