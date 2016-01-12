@@ -77,7 +77,10 @@ class NetworkStack(BaseDaemon):
         commands.append('ifconfig ' + interface + ' up')
 
         for command in commands:
-            if not self.app.executeCommand(command, shell=True)[0]:
+            status, message = self.app.executeCommand(command, shell=True)
+
+            if not status:
+                self.lastErrorMessage = message
                 return False
 
         return True
