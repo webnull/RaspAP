@@ -121,19 +121,6 @@ then
     cp /tmp/.raspap-cache /usr/share/webapps/raspap/raspap/.content/cache -pR
 fi
 
-echo "Setting permisions..."
-if [ ! -d /usr/share/webapps/raspap/raspap/.content/cache/sessions ]
-then
-    mkdir /usr/share/webapps/raspap/raspap/.content/cache/sessions -p
-fi
-chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/cache/sessions -R
-
-sudo chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/cache/ -R
-sudo chmod 770 /usr/share/webapps/raspap/raspap/.content/cache/ -R
-
-sudo chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/*.sqlite3 -R
-sudo chmod 770 /usr/share/webapps/raspap/raspap/.content/*.sqlite3 -R
-
 # restoring database from backup
 if [ ${_erasePreviousDatabase} == 0 ] && [ -f /tmp/database.backup.sqlite3 ]
 then
@@ -146,6 +133,19 @@ cd /usr/share/webapps/raspap/raspap
 sudo -u raspap ./vendor/pantheraframework/panthera/lib/Binaries/deploy Build/Database/ConfigurePhinx
 sudo -u raspap ./vendor/pantheraframework/panthera/lib/Binaries/deploy Build/Database/Migrate
 sudo -u raspap ./vendor/pantheraframework/panthera/lib/Binaries/deploy Build/Routing/Cache
+
+echo "Setting permisions..."
+if [ ! -d /usr/share/webapps/raspap/raspap/.content/cache/sessions ]
+then
+    mkdir /usr/share/webapps/raspap/raspap/.content/cache/sessions -p
+fi
+chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/cache/sessions -R
+
+sudo chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/cache/ -R
+sudo chmod 770 /usr/share/webapps/raspap/raspap/.content/cache/ -R
+
+sudo chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/*.sqlite3 -R
+sudo chmod 770 /usr/share/webapps/raspap/raspap/.content/*.sqlite3 -R
 
 echo "RaspAP installed in /usr/share/webapps/raspap"
 echo "To allow you'r user to overwrite RaspAP files type: "
