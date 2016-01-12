@@ -34,17 +34,17 @@ then
     # Arch Linux support
     if [ -f /usr/bin/pacman ];
     then
-        sudo pacman -S php php-sqlite python2 aircrack-ng extra/python2-pyqt4 python2-pip dhclient dhcp tor privoxy hostapd screen
+        sudo pacman -S php php-sqlite python2 aircrack-ng extra/python2-pyqt4 python2-pip dhclient dhcp tor privoxy hostapd screen bridge-utils wpa_supplicant wireless_tools coreutils iw iptables
 
     # Debian/Ubuntu/Mint support
     elif [ -f /usr/bin/apt ];
     then
-        sudo apt install php5-cli php5-cgi php5-sqlite python2.7 aircrack-ng python-qt4 python-pip isc-dhcp-server tor privoxy hostapd screen
+        sudo apt install php5-cli php5-cgi php5-sqlite python2.7 aircrack-ng python-qt4 python-pip isc-dhcp-server tor privoxy hostapd screen bridge-utils wpasupplicant wireless-tools iw iptables
     fi
 
     # install python dependenices
-    sudo pip2 install python-pam
-    sudo pip2 install pantheradesktop
+    sudo pip2 install python-pam --upgrade
+    sudo pip2 install pantheradesktop --upgrade
 
     # install composer
     echo "~> Installing composer"
