@@ -68,9 +68,6 @@ then
     sudo touch /etc/privoxy/config-raspap
     sudo chown raspap:raspap /etc/privoxy/config-raspap
 
-    sudo chown raspap:raspap $PWD/../raspap -R
-    sudo chmod 770 $PWD/../raspap
-
     sudo mkdir -p /etc/dhcpd/raspap/
     sudo chown raspap:raspap /etc/dhcpd/raspap/ -R
     sudo chmod 770 /etc/dhcpd/raspap/
@@ -124,13 +121,18 @@ then
     cp /tmp/.raspap-cache /usr/share/webapps/raspap/raspap/.content/cache -pR
 fi
 
-echo "Setting permisions for session saving..."
+echo "Setting permisions..."
 if [ ! -d /usr/share/webapps/raspap/raspap/.content/cache/sessions ]
 then
     mkdir /usr/share/webapps/raspap/raspap/.content/cache/sessions -p
 fi
 chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/cache/sessions -R
 
+sudo chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/cache/ -R
+sudo chmod 770 /usr/share/webapps/raspap/raspap/.content/cache/ -R
+
+sudo chown raspap:raspap /usr/share/webapps/raspap/raspap/.content/*.sqlite3 -R
+sudo chmod 770 /usr/share/webapps/raspap/raspap/.content/*.sqlite3 -R
 
 # restoring database from backup
 if [ ${_erasePreviousDatabase} == 0 ] && [ -f /tmp/database.backup.sqlite3 ]
