@@ -32,6 +32,11 @@ and where runs dependencies.
 - dhclient (install using OS package manager)
 - python-pam (install via PIP for Python 2.7 - `sudo pip2 install python-pam`)
 - GNU Screen (install via OS package manager: screen)
+- wireless-tools (install using OS package manager)
+- bridge-utils (install using OS package manager)
+- iw (install using OS package manager)
+- iptables (install using OS package manager)
+- wpa_supplicant (install using OS package manager)
 
 ## Optional dependencies
 - tor
