@@ -112,6 +112,9 @@ class NetworkStack(BaseDaemon):
             except Exception:
                 pass
 
+            if self.connectivityCheckInterval < 5:
+                self.connectivityCheckInterval = 5
+
 
         # allow to set custom dhcp timeout (defaults to 60 seconds)
         if 'dhcp_timeout' in settings:
