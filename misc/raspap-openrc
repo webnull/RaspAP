@@ -53,6 +53,15 @@ case "$1" in
             kill $(ps aux |grep 'raspapd.py' |grep -v "grep" |awk '{print $2}')
         fi
   ;;
+  upgrade)
+        echo "Performing a upgrade using GIT..."
+        cd /usr/share/webapps/raspap
+        git pull
+        cp /usr/share/webapps/raspap /tmp/raspap-update -p -R
+        cd /tmp/raspap-update
+        ./install.sh --keep-cache
+        /etc/init.d/raspap restart
+  ;;
   restart)
         $0 stop
         sleep 1
