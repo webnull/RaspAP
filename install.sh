@@ -114,6 +114,10 @@ echo "Copying files..."
 cd ../
 cp ./ /usr/share/webapps/raspap -pr
 
+echo "Copying OpenRC startup files..."
+cp /usr/share/webapps/raspap/misc/raspap-openrc /etc/init.d/raspap
+chmod +x /etc/init.d/raspap
+
 if [ ${_keepCache} == "1" ] && [ -d /tmp/.raspap-cache ]
 then
     echo "Restoring cache from backup"
@@ -155,6 +159,10 @@ echo ""
 echo "To run application daemon and webpanel please do:"
 echo "sudo /usr/share/webapps/raspap/run-webpanel.sh"
 echo "sudo /usr/share/webapps/raspap/run-daemon.sh"
+echo ""
+echo "To add to system startup (for OpenRC/UpStart):"
+echo "Upstart: update.rc-d raspap defaults"
+echo "OpenRC: update.rc-d add raspap defaults"
 echo ""
 
 if [ ! -f /etc/RaspAP/RaspAP.conf ]
