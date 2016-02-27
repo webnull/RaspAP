@@ -1,0 +1,67 @@
+#! /bin/bash
+### BEGIN INIT INFO
+# Provides:          raspap
+# Should-Start:      console-screen dbus
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Required-Start:
+# Required-Stop:
+# Short-Description: RaspAP
+# Description:       Router from your Linux box
+### END INIT INFO
+#
+# Author:       Damian Keska <keska.damian@gmail.com>
+#
+set -e
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+
+if [ -r /etc/default/locale ]; then
+  . /etc/default/locale
+  export LANG LANGUAGE
+fi
+
+#. /lib/lsb/init-functions
+
+DAEMON_PANEL=/usr/share/webapps/raspap/run-webpanel.sh
+DAEMON=/usr/share/webapps/raspap/run-daemon.sh
+
+case "$1" in
+  start)
+        if [[ $(ps aux |grep 'sudo -u raspap php' |grep -v "grep") != *"sudo -u raspap php"* ]];
+        then
+            echo "Starting RaspAP Web Panel"
+            start-stop-daemon --start --quiet  --exec $DAEMON_PANEL --background
+        fi
+
+        if [[ $(ps aux |grep 'raspapd.py' |grep -v "grep") != *"raspapd.py"* ]];
+        then
+            echo "Starting RaspAP Daemon"
+            start-stop-daemon --start --quiet  --exec $DAEMON --background
+        fi
+  ;;
+  stop)
+        if [[ $(ps aux |grep 'sudo -u raspap php' |grep -v "grep") == *"sudo -u raspap php"* ]];
+        then
+            echo "Stopping RaspAP"
+            kill $(ps aux |grep 'sudo -u raspap php' |grep -v "grep" |awk '{print $2}')
+        fi
+
+        if [[ $(ps aux |grep 'raspapd.py' |grep -v "grep") == *"raspapd.py"* ]];
+        then
+            echo "Stopping RaspAP Daemon"
+            kill $(ps aux |grep 'raspapd.py' |grep -v "grep" |awk '{print $2}')
+        fi
+  ;;
+  restart)
+        $0 stop
+        sleep 1
+        $0 start
+  ;;
+  *)
+        echo "Usage: /etc/init.d/raspap {start|stop|restart}"
+        exit 1
+  ;;
+esac
+
+exit 0
